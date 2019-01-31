@@ -1,0 +1,450 @@
+Archive member included to satisfy reference by file (symbol)
+
+.pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o)
+                              .pioenvs/bluepill_f103c8/src/main.o (enable_log)
+/Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memcpy.o)
+                              .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o) (memcpy)
+/Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strcpy.o)
+                              .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o) (strcpy)
+/Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strlen-stub.o)
+                              .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o) (strlen)
+/Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_truncdfsf2.o)
+                              .pioenvs/bluepill_f103c8/src/main.o (__aeabi_d2f)
+/Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_muldivsf3.o)
+                              .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o) (__aeabi_fmul)
+/Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_cmpsf2.o)
+                              .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o) (__aeabi_fcmpeq)
+/Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_fixunssfsi.o)
+                              .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o) (__aeabi_f2uiz)
+.pioenvs/bluepill_f103c8/libFrameworkLibOpenCM3.a(vector.o)
+                              (reset_handler)
+
+Allocating common symbols
+Common symbol       size              file
+
+r                   0x8               .pioenvs/bluepill_f103c8/src/main.o
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 .pioenvs/bluepill_f103c8/src/main.o
+ .data          0x0000000000000000        0x0 .pioenvs/bluepill_f103c8/src/main.o
+ .bss           0x0000000000000000        0x0 .pioenvs/bluepill_f103c8/src/main.o
+ .text          0x0000000000000000        0x0 .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o)
+ .data          0x0000000000000000        0x0 .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o)
+ .bss           0x0000000000000000        0x0 .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o)
+ .text.disable_log
+                0x0000000000000000        0xc .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o)
+ .text.logger_add_output
+                0x0000000000000000       0x38 .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o)
+ .text.debug_flush
+                0x0000000000000000        0x6 .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o)
+ .text.debug_begin
+                0x0000000000000000        0x2 .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o)
+ .text.debug_write
+                0x0000000000000000       0x16 .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o)
+ .text._Z11debug_printi
+                0x0000000000000000       0x30 .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o)
+ .text._Z11debug_printc
+                0x0000000000000000       0x16 .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o)
+ .text._Z13debug_printlni
+                0x0000000000000000       0x18 .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o)
+ .text._Z13debug_printlnj
+                0x0000000000000000       0x18 .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o)
+ .text._Z13debug_printlnc
+                0x0000000000000000       0x18 .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o)
+ .text._Z13debug_printlnf
+                0x0000000000000000       0x18 .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o)
+ .text.debug_print_int
+                0x0000000000000000        0x4 .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o)
+ .text.debug_print_unsigned
+                0x0000000000000000        0x4 .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o)
+ .text.debug_print_char
+                0x0000000000000000        0x4 .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o)
+ .text.debug_printhex
+                0x0000000000000000       0x42 .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o)
+ .text.debug_printhex_unsigned
+                0x0000000000000000       0x24 .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o)
+ .data          0x0000000000000000        0x0 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memcpy.o)
+ .bss           0x0000000000000000        0x0 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memcpy.o)
+ .text          0x0000000000000000        0x0 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strcpy.o)
+ .data          0x0000000000000000        0x0 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strcpy.o)
+ .bss           0x0000000000000000        0x0 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strcpy.o)
+ .text          0x0000000000000000        0x0 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strlen-stub.o)
+ .data          0x0000000000000000        0x0 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strlen-stub.o)
+ .bss           0x0000000000000000        0x0 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strlen-stub.o)
+ .data          0x0000000000000000        0x0 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_truncdfsf2.o)
+ .bss           0x0000000000000000        0x0 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_truncdfsf2.o)
+ .data          0x0000000000000000        0x0 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_muldivsf3.o)
+ .bss           0x0000000000000000        0x0 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_muldivsf3.o)
+ .data          0x0000000000000000        0x0 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_cmpsf2.o)
+ .bss           0x0000000000000000        0x0 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_cmpsf2.o)
+ .data          0x0000000000000000        0x0 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_fixunssfsi.o)
+ .bss           0x0000000000000000        0x0 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_fixunssfsi.o)
+ .text          0x0000000000000000        0x0 .pioenvs/bluepill_f103c8/libFrameworkLibOpenCM3.a(vector.o)
+ .data          0x0000000000000000        0x0 .pioenvs/bluepill_f103c8/libFrameworkLibOpenCM3.a(vector.o)
+ .bss           0x0000000000000000        0x0 .pioenvs/bluepill_f103c8/libFrameworkLibOpenCM3.a(vector.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x0000000008000000 0x0000000000010000 xr
+ram              0x0000000020000000 0x0000000000005000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD .pioenvs/bluepill_f103c8/src/main.o
+START GROUP
+LOAD .pioenvs/bluepill_f103c8/libdd1/liblogger.a
+LOAD /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a
+LOAD /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a
+LOAD /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a
+LOAD /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libstdc++.a
+LOAD /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a
+LOAD .pioenvs/bluepill_f103c8/libFrameworkLibOpenCM3.a
+END GROUP
+
+.text           0x0000000008000000      0xb28
+ *(.vectors)
+ .vectors       0x0000000008000000      0x150 .pioenvs/bluepill_f103c8/libFrameworkLibOpenCM3.a(vector.o)
+                0x0000000008000000                vector_table
+ *(.text*)
+ .text.startup.main
+                0x0000000008000150       0x50 .pioenvs/bluepill_f103c8/src/main.o
+                0x0000000008000150                main
+ .text.__wrap___aeabi_dmul
+                0x00000000080001a0        0xc .pioenvs/bluepill_f103c8/src/main.o
+                0x00000000080001a0                __wrap___aeabi_dmul
+ .text._ZL12debug_appendPKcj
+                0x00000000080001ac       0x54 .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o)
+ .text.enable_log
+                0x0000000008000200        0xc .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o)
+                0x0000000008000200                enable_log
+ .text._Z20debug_flush_internalb
+                0x000000000800020c       0x90 .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o)
+                0x000000000800020c                debug_flush_internal(bool)
+ .text.debug_force_flush
+                0x000000000800029c       0x1c .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o)
+                0x000000000800029c                debug_force_flush
+ .text.debug_print
+                0x00000000080002b8       0x1a .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o)
+                0x00000000080002b8                debug_print
+ *fill*         0x00000000080002d2        0x2 
+ .text._Z11debug_printj
+                0x00000000080002d4       0x7c .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o)
+                0x00000000080002d4                debug_print(unsigned int)
+ .text._Z11debug_printf
+                0x0000000008000350       0x88 .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o)
+                0x0000000008000350                debug_print(float)
+ .text.debug_println
+                0x00000000080003d8       0x1c .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o)
+                0x00000000080003d8                debug_println
+ .text.debug_print_float
+                0x00000000080003f4        0x4 .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o)
+                0x00000000080003f4                debug_print_float
+ .text          0x00000000080003f8       0xec /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memcpy.o)
+                0x00000000080003f8                memcpy
+ .text.strcpy   0x00000000080004e4       0xbc /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strcpy.o)
+                0x00000000080004e4                strcpy
+ .text.strlen   0x00000000080005a0       0x5c /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strlen-stub.o)
+                0x00000000080005a0                strlen
+ .text          0x00000000080005fc       0xa0 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_truncdfsf2.o)
+                0x00000000080005fc                __aeabi_d2f
+                0x00000000080005fc                __truncdfsf2
+ .text          0x000000000800069c      0x2a0 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_muldivsf3.o)
+                0x000000000800069c                __mulsf3
+                0x000000000800069c                __aeabi_fmul
+                0x0000000008000804                __divsf3
+                0x0000000008000804                __aeabi_fdiv
+ .text          0x000000000800093c       0xec /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_cmpsf2.o)
+                0x000000000800093c                __gesf2
+                0x000000000800093c                __gtsf2
+                0x0000000008000944                __ltsf2
+                0x0000000008000944                __lesf2
+                0x000000000800094c                __nesf2
+                0x000000000800094c                __eqsf2
+                0x000000000800094c                __cmpsf2
+                0x00000000080009ac                __aeabi_cfrcmple
+                0x00000000080009b4                __aeabi_cfcmpeq
+                0x00000000080009b4                __aeabi_cfcmple
+                0x00000000080009c4                __aeabi_fcmpeq
+                0x00000000080009d8                __aeabi_fcmplt
+                0x00000000080009ec                __aeabi_fcmple
+                0x0000000008000a00                __aeabi_fcmpge
+                0x0000000008000a14                __aeabi_fcmpgt
+ .text          0x0000000008000a28       0x40 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_fixunssfsi.o)
+                0x0000000008000a28                __aeabi_f2uiz
+                0x0000000008000a28                __fixunssfsi
+ .text.blocking_handler
+                0x0000000008000a68        0x2 .pioenvs/bluepill_f103c8/libFrameworkLibOpenCM3.a(vector.o)
+                0x0000000008000a68                exti0_isr
+                0x0000000008000a68                rtc_isr
+                0x0000000008000a68                tim7_isr
+                0x0000000008000a68                adc1_2_isr
+                0x0000000008000a68                tim1_trg_com_isr
+                0x0000000008000a68                usb_hp_can_tx_isr
+                0x0000000008000a68                tim6_isr
+                0x0000000008000a68                usb_wakeup_isr
+                0x0000000008000a68                blocking_handler
+                0x0000000008000a68                tim5_isr
+                0x0000000008000a68                otg_fs_isr
+                0x0000000008000a68                spi1_isr
+                0x0000000008000a68                exti2_isr
+                0x0000000008000a68                dma1_channel6_isr
+                0x0000000008000a68                can_rx1_isr
+                0x0000000008000a68                dma1_channel5_isr
+                0x0000000008000a68                dma2_channel5_isr
+                0x0000000008000a68                usart1_isr
+                0x0000000008000a68                usage_fault_handler
+                0x0000000008000a68                tim8_trg_com_isr
+                0x0000000008000a68                can2_rx0_isr
+                0x0000000008000a68                tim1_brk_isr
+                0x0000000008000a68                can2_rx1_isr
+                0x0000000008000a68                tim1_cc_isr
+                0x0000000008000a68                sdio_isr
+                0x0000000008000a68                eth_isr
+                0x0000000008000a68                dma1_channel4_isr
+                0x0000000008000a68                tim8_brk_isr
+                0x0000000008000a68                dma2_channel4_5_isr
+                0x0000000008000a68                pvd_isr
+                0x0000000008000a68                rcc_isr
+                0x0000000008000a68                flash_isr
+                0x0000000008000a68                uart4_isr
+                0x0000000008000a68                rtc_alarm_isr
+                0x0000000008000a68                exti15_10_isr
+                0x0000000008000a68                hard_fault_handler
+                0x0000000008000a68                exti1_isr
+                0x0000000008000a68                i2c1_ev_isr
+                0x0000000008000a68                dma2_channel1_isr
+                0x0000000008000a68                spi2_isr
+                0x0000000008000a68                tim8_up_isr
+                0x0000000008000a68                dma2_channel2_isr
+                0x0000000008000a68                exti3_isr
+                0x0000000008000a68                adc3_isr
+                0x0000000008000a68                tim3_isr
+                0x0000000008000a68                usart2_isr
+                0x0000000008000a68                usb_lp_can_rx0_isr
+                0x0000000008000a68                i2c2_er_isr
+                0x0000000008000a68                i2c2_ev_isr
+                0x0000000008000a68                uart5_isr
+                0x0000000008000a68                fsmc_isr
+                0x0000000008000a68                dma1_channel1_isr
+                0x0000000008000a68                exti4_isr
+                0x0000000008000a68                mem_manage_handler
+                0x0000000008000a68                can2_tx_isr
+                0x0000000008000a68                exti9_5_isr
+                0x0000000008000a68                dma2_channel3_isr
+                0x0000000008000a68                dma1_channel7_isr
+                0x0000000008000a68                tim1_up_isr
+                0x0000000008000a68                can2_sce_isr
+                0x0000000008000a68                tim4_isr
+                0x0000000008000a68                dma1_channel2_isr
+                0x0000000008000a68                i2c1_er_isr
+                0x0000000008000a68                can_sce_isr
+                0x0000000008000a68                tim8_cc_isr
+                0x0000000008000a68                tamper_isr
+                0x0000000008000a68                eth_wkup_isr
+                0x0000000008000a68                bus_fault_handler
+                0x0000000008000a68                wwdg_isr
+                0x0000000008000a68                dma1_channel3_isr
+                0x0000000008000a68                spi3_isr
+                0x0000000008000a68                tim2_isr
+                0x0000000008000a68                usart3_isr
+ .text.null_handler
+                0x0000000008000a6a        0x2 .pioenvs/bluepill_f103c8/libFrameworkLibOpenCM3.a(vector.o)
+                0x0000000008000a6a                null_handler
+                0x0000000008000a6a                sv_call_handler
+                0x0000000008000a6a                pend_sv_handler
+                0x0000000008000a6a                debug_monitor_handler
+                0x0000000008000a6a                sys_tick_handler
+                0x0000000008000a6a                nmi_handler
+ .text.reset_handler
+                0x0000000008000a6c       0x90 .pioenvs/bluepill_f103c8/libFrameworkLibOpenCM3.a(vector.o)
+                0x0000000008000a6c                reset_handler
+                0x0000000008000afc                . = ALIGN (0x4)
+ *(.rodata*)
+ .rodata.main.str1.1
+                0x0000000008000afc        0xc .pioenvs/bluepill_f103c8/src/main.o
+                                          0xd (size before relaxing)
+ .rodata._Z11debug_printf.str1.1
+                0x0000000008000b08        0x5 .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o)
+                                          0x7 (size before relaxing)
+ .rodata._Z11debug_printi.str1.1
+                0x0000000008000b0d        0x2 .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o)
+                                          0x4 (size before relaxing)
+ .rodata._Z11debug_printj.str1.1
+                0x0000000008000b0f        0xb .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o)
+ .rodata._ZL12debug_appendPKcj.str1.1
+                0x0000000008000b1a        0xa .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o)
+ .rodata.debug_println.str1.1
+                0x0000000008000b24        0x3 .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o)
+                0x0000000008000b28                . = ALIGN (0x4)
+ *fill*         0x0000000008000b27        0x1 
+
+.glue_7         0x0000000008000b28        0x0
+ .glue_7        0x0000000008000b28        0x0 linker stubs
+
+.glue_7t        0x0000000008000b28        0x0
+ .glue_7t       0x0000000008000b28        0x0 linker stubs
+
+.vfp11_veneer   0x0000000008000b28        0x0
+ .vfp11_veneer  0x0000000008000b28        0x0 linker stubs
+
+.v4_bx          0x0000000008000b28        0x0
+ .v4_bx         0x0000000008000b28        0x0 linker stubs
+
+.iplt           0x0000000008000b28        0x0
+ .iplt          0x0000000008000b28        0x0 .pioenvs/bluepill_f103c8/src/main.o
+
+.rel.dyn        0x0000000008000b28        0x0
+ .rel.iplt      0x0000000008000b28        0x0 .pioenvs/bluepill_f103c8/src/main.o
+
+.preinit_array  0x0000000008000b28        0x0
+                0x0000000008000b28                . = ALIGN (0x4)
+                0x0000000008000b28                __preinit_array_start = .
+ *(.preinit_array)
+                0x0000000008000b28                __preinit_array_end = .
+
+.init_array     0x0000000008000b28        0x0
+                0x0000000008000b28                . = ALIGN (0x4)
+                0x0000000008000b28                __init_array_start = .
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array)
+                0x0000000008000b28                __init_array_end = .
+
+.fini_array     0x0000000008000b28        0x0
+                0x0000000008000b28                . = ALIGN (0x4)
+                0x0000000008000b28                __fini_array_start = .
+ *(.fini_array)
+ *(SORT_BY_NAME(.fini_array.*))
+                0x0000000008000b28                __fini_array_end = .
+
+.ARM.extab
+ *(.ARM.extab*)
+
+.ARM.exidx      0x0000000008000b28        0x0
+                0x0000000008000b28                __exidx_start = .
+ *(.ARM.exidx*)
+                0x0000000008000b28                __exidx_end = .
+                0x0000000008000b28                . = ALIGN (0x4)
+                0x0000000008000b28                _etext = .
+
+.data           0x0000000020000000       0x10 load address 0x0000000008000b28
+                0x0000000020000000                _data = .
+ *(.data*)
+ .data.x        0x0000000020000000        0x8 .pioenvs/bluepill_f103c8/src/main.o
+                0x0000000020000000                x
+ .data.y        0x0000000020000008        0x8 .pioenvs/bluepill_f103c8/src/main.o
+                0x0000000020000008                y
+                0x0000000020000010                . = ALIGN (0x4)
+                0x0000000020000010                _edata = .
+                0x0000000008000b28                _data_loadaddr = LOADADDR (.data)
+
+.igot.plt       0x0000000020000010        0x0 load address 0x0000000008000b38
+ .igot.plt      0x0000000020000010        0x0 .pioenvs/bluepill_f103c8/src/main.o
+
+.bss            0x0000000020000010      0x220 load address 0x0000000008000b38
+ *(.bss*)
+ .bss._ZL10logEnabled
+                0x0000000020000010        0x1 .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o)
+ .bss._ZL11debugBuffer
+                0x0000000020000011      0x201 .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o)
+ *fill*         0x0000000020000212        0x2 
+ .bss._ZL12output_funcs
+                0x0000000020000214       0x10 .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o)
+ .bss._ZL17debugBufferLength
+                0x0000000020000224        0x2 .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o)
+ *(COMMON)
+ *fill*         0x0000000020000226        0x2 
+ COMMON         0x0000000020000228        0x8 .pioenvs/bluepill_f103c8/src/main.o
+                0x0000000020000228                r
+                0x0000000020000230                . = ALIGN (0x4)
+                0x0000000020000230                _ebss = .
+
+/DISCARD/
+ *(.eh_frame)
+                0x0000000020000230                . = ALIGN (0x4)
+                0x0000000020000230                end = .
+                0x0000000020005000                PROVIDE (_stack, (ORIGIN (ram) + LENGTH (ram)))
+OUTPUT(.pioenvs/bluepill_f103c8/firmware.elf elf32-littlearm)
+
+.debug_info     0x0000000000000000     0x2646
+ .debug_info    0x0000000000000000      0x9a3 .pioenvs/bluepill_f103c8/src/main.o
+ .debug_info    0x00000000000009a3     0x1a06 .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o)
+ .debug_info    0x00000000000023a9      0x29d .pioenvs/bluepill_f103c8/libFrameworkLibOpenCM3.a(vector.o)
+
+.debug_abbrev   0x0000000000000000      0x8cc
+ .debug_abbrev  0x0000000000000000      0x22b .pioenvs/bluepill_f103c8/src/main.o
+ .debug_abbrev  0x000000000000022b      0x579 .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o)
+ .debug_abbrev  0x00000000000007a4      0x128 .pioenvs/bluepill_f103c8/libFrameworkLibOpenCM3.a(vector.o)
+
+.debug_loc      0x0000000000000000      0x89d
+ .debug_loc     0x0000000000000000       0x28 .pioenvs/bluepill_f103c8/src/main.o
+ .debug_loc     0x0000000000000028      0x78b .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o)
+ .debug_loc     0x00000000000007b3       0xea .pioenvs/bluepill_f103c8/libFrameworkLibOpenCM3.a(vector.o)
+
+.debug_aranges  0x0000000000000000      0x138
+ .debug_aranges
+                0x0000000000000000       0x28 .pioenvs/bluepill_f103c8/src/main.o
+ .debug_aranges
+                0x0000000000000028       0xe0 .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o)
+ .debug_aranges
+                0x0000000000000108       0x30 .pioenvs/bluepill_f103c8/libFrameworkLibOpenCM3.a(vector.o)
+
+.debug_ranges   0x0000000000000000      0x1f0
+ .debug_ranges  0x0000000000000000       0x18 .pioenvs/bluepill_f103c8/src/main.o
+ .debug_ranges  0x0000000000000018      0x1b8 .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o)
+ .debug_ranges  0x00000000000001d0       0x20 .pioenvs/bluepill_f103c8/libFrameworkLibOpenCM3.a(vector.o)
+
+.debug_line     0x0000000000000000      0x9a9
+ .debug_line    0x0000000000000000      0x1a7 .pioenvs/bluepill_f103c8/src/main.o
+ .debug_line    0x00000000000001a7      0x5a3 .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o)
+ .debug_line    0x000000000000074a      0x25f .pioenvs/bluepill_f103c8/libFrameworkLibOpenCM3.a(vector.o)
+
+.debug_str      0x0000000000000000      0xb4f
+ .debug_str     0x0000000000000000      0x51e .pioenvs/bluepill_f103c8/src/main.o
+                                        0x594 (size before relaxing)
+ .debug_str     0x000000000000051e      0x451 .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o)
+                                        0x991 (size before relaxing)
+ .debug_str     0x000000000000096f      0x1e0 .pioenvs/bluepill_f103c8/libFrameworkLibOpenCM3.a(vector.o)
+                                        0x334 (size before relaxing)
+
+.comment        0x0000000000000000       0x7e
+ .comment       0x0000000000000000       0x7e .pioenvs/bluepill_f103c8/src/main.o
+                                         0x7f (size before relaxing)
+ .comment       0x000000000000007e       0x7f .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o)
+ .comment       0x000000000000007e       0x7f .pioenvs/bluepill_f103c8/libFrameworkLibOpenCM3.a(vector.o)
+
+.ARM.attributes
+                0x0000000000000000       0x31
+ .ARM.attributes
+                0x0000000000000000       0x33 .pioenvs/bluepill_f103c8/src/main.o
+ .ARM.attributes
+                0x0000000000000033       0x33 .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o)
+ .ARM.attributes
+                0x0000000000000066       0x1b /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x0000000000000081       0x2d /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strcpy.o)
+ .ARM.attributes
+                0x00000000000000ae       0x2d /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strlen-stub.o)
+ .ARM.attributes
+                0x00000000000000db       0x1d /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_truncdfsf2.o)
+ .ARM.attributes
+                0x00000000000000f8       0x1d /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_muldivsf3.o)
+ .ARM.attributes
+                0x0000000000000115       0x1d /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_cmpsf2.o)
+ .ARM.attributes
+                0x0000000000000132       0x1d /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_fixunssfsi.o)
+ .ARM.attributes
+                0x000000000000014f       0x33 .pioenvs/bluepill_f103c8/libFrameworkLibOpenCM3.a(vector.o)
+
+.debug_frame    0x0000000000000000      0x498
+ .debug_frame   0x0000000000000000       0x38 .pioenvs/bluepill_f103c8/src/main.o
+ .debug_frame   0x0000000000000038      0x298 .pioenvs/bluepill_f103c8/libdd1/liblogger.a(logger.o)
+ .debug_frame   0x00000000000002d0       0x20 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strcpy.o)
+ .debug_frame   0x00000000000002f0       0x20 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strlen-stub.o)
+ .debug_frame   0x0000000000000310       0x24 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_truncdfsf2.o)
+ .debug_frame   0x0000000000000334       0x38 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_muldivsf3.o)
+ .debug_frame   0x000000000000036c       0xc8 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_cmpsf2.o)
+ .debug_frame   0x0000000000000434       0x24 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_fixunssfsi.o)
+ .debug_frame   0x0000000000000458       0x40 .pioenvs/bluepill_f103c8/libFrameworkLibOpenCM3.a(vector.o)

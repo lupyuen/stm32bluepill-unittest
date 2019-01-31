@@ -1,0 +1,1479 @@
+
+.pioenvs/bluepill_f103c8/firmware.elf:     file format elf32-littlearm
+
+SYMBOL TABLE:
+08000000 l    d  .text	00000000 .text
+08000b28 l    d  .preinit_array	00000000 .preinit_array
+08000b28 l    d  .init_array	00000000 .init_array
+08000b28 l    d  .fini_array	00000000 .fini_array
+20000000 l    d  .data	00000000 .data
+20000010 l    d  .bss	00000000 .bss
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_loc	00000000 .debug_loc
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_ranges	00000000 .debug_ranges
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    df *ABS*	00000000 vector.c
+00000000 l    df *ABS*	00000000 main.c
+00000000 l    df *ABS*	00000000 logger.cpp
+080001ac l     F .text	00000054 _ZL12debug_appendPKcj
+20000010 l     O .bss	00000001 _ZL10logEnabled
+20000011 l     O .bss	00000201 _ZL11debugBuffer
+20000214 l     O .bss	00000010 _ZL12output_funcs
+20000224 l     O .bss	00000002 _ZL17debugBufferLength
+00000000 l    df *ABS*	00000000 lib_a-memcpy.o
+00000000 l    df *ABS*	00000000 strcpy.c
+00000000 l    df *ABS*	00000000 strlen-stub.c
+00000000 l    df *ABS*	00000000 _arm_truncdfsf2.o
+00000000 l    df *ABS*	00000000 _arm_muldivsf3.o
+00000000 l    df *ABS*	00000000 _arm_cmpsf2.o
+00000000 l    df *ABS*	00000000 _arm_fixunssfsi.o
+080004e4 g     F .text	000000ba strcpy
+080003f4 g     F .text	00000004 debug_print_float
+08000a6c  w    F .text	00000090 reset_handler
+08000a68  w    F .text	00000002 usart3_isr
+08000a68  w    F .text	00000002 rtc_isr
+08000a68  w    F .text	00000002 tim7_isr
+08000a68  w    F .text	00000002 adc1_2_isr
+08000804 g     F .text	00000136 .hidden __divsf3
+08000a68  w    F .text	00000002 tim1_trg_com_isr
+20000000 g     O .data	00000008 x
+08000b28 g       .fini_array	00000000 __exidx_end
+080001a0 g     F .text	0000000c __wrap___aeabi_dmul
+08000a68  w    F .text	00000002 usb_hp_can_tx_isr
+08000a68  w    F .text	00000002 tim6_isr
+08000b28 g       .data	00000000 _etext
+08000a68  w    F .text	00000002 usb_wakeup_isr
+08000a68 g     F .text	00000002 blocking_handler
+08000a68  w    F .text	00000002 tim5_isr
+080003d8 g     F .text	0000001c debug_println
+08000a68  w    F .text	00000002 otg_fs_isr
+08000a68  w    F .text	00000002 spi1_isr
+08000350 g     F .text	00000088 _Z11debug_printf
+080003f8 g     F .text	000000ec memcpy
+08000a68  w    F .text	00000002 exti2_isr
+08000a68  w    F .text	00000002 dma1_channel6_isr
+08000a6a g     F .text	00000002 null_handler
+08000a14 g     F .text	00000012 .hidden __aeabi_fcmpgt
+08000a68  w    F .text	00000002 can_rx1_isr
+08000b28 g       .fini_array	00000000 __fini_array_end
+08000a68  w    F .text	00000002 dma1_channel5_isr
+08000a68  w    F .text	00000002 dma2_channel5_isr
+08000944 g     F .text	00000066 .hidden __lesf2
+08000a68  w    F .text	00000002 usart1_isr
+08000a68  w    F .text	00000002 usage_fault_handler
+08000a68  w    F .text	00000002 tim8_trg_com_isr
+08000a68  w    F .text	00000002 can2_rx0_isr
+08000a68  w    F .text	00000002 tim1_brk_isr
+0800094c g     F .text	0000005e .hidden __nesf2
+08000b28 g       .fini_array	00000000 __exidx_start
+08000a68  w    F .text	00000002 can2_rx1_isr
+08000a68  w    F .text	00000002 tim1_cc_isr
+08000a68  w    F .text	00000002 sdio_isr
+08000a68  w    F .text	00000002 eth_isr
+08000a68  w    F .text	00000002 dma1_channel4_isr
+08000a68  w    F .text	00000002 tim8_brk_isr
+08000a68  w    F .text	00000002 dma2_channel4_5_isr
+080005fc g     F .text	0000009e .hidden __aeabi_d2f
+20000230 g       .bss	00000000 _ebss
+08000a68  w    F .text	00000002 pvd_isr
+08000a00 g     F .text	00000012 .hidden __aeabi_fcmpge
+20000228 g     O .bss	00000008 r
+0800093c g     F .text	0000006e .hidden __gtsf2
+08000a6a  w    F .text	00000002 sv_call_handler
+080009ec g     F .text	00000012 .hidden __aeabi_fcmple
+08000a68  w    F .text	00000002 rcc_isr
+08000000 g     O .text	00000150 vector_table
+08000a68  w    F .text	00000002 flash_isr
+08000b28 g       *ABS*	00000000 _data_loadaddr
+20000230 g       .bss	00000000 end
+08000a68  w    F .text	00000002 uart4_isr
+08000a68  w    F .text	00000002 rtc_alarm_isr
+08000a68  w    F .text	00000002 exti15_10_isr
+08000a68  w    F .text	00000002 hard_fault_handler
+08000a68  w    F .text	00000002 exti1_isr
+08000a68  w    F .text	00000002 i2c1_ev_isr
+08000a68  w    F .text	00000002 dma2_channel1_isr
+08000200 g     F .text	0000000c enable_log
+08000a6a  w    F .text	00000002 pend_sv_handler
+08000a68  w    F .text	00000002 spi2_isr
+08000a68  w    F .text	00000002 tim8_up_isr
+0800094c g     F .text	0000005e .hidden __eqsf2
+08000804 g     F .text	00000136 .hidden __aeabi_fdiv
+08000a68  w    F .text	00000002 dma2_channel2_isr
+08000a6a  w    F .text	00000002 debug_monitor_handler
+08000a68  w    F .text	00000002 exti3_isr
+08000a68  w    F .text	00000002 adc3_isr
+08000a68  w    F .text	00000002 tim3_isr
+08000a68  w    F .text	00000002 usart2_isr
+080002b8 g     F .text	0000001a debug_print
+08000a68  w    F .text	00000002 usb_lp_can_rx0_isr
+08000b28 g       .fini_array	00000000 __fini_array_start
+08000a68  w    F .text	00000002 i2c2_er_isr
+0800094c g     F .text	0000005e .hidden __cmpsf2
+08000150 g     F .text	00000050 main
+08000a68  w    F .text	00000002 i2c2_ev_isr
+08000a68  w    F .text	00000002 uart5_isr
+08000944 g     F .text	00000066 .hidden __ltsf2
+08000a6a  w    F .text	00000002 sys_tick_handler
+080005fc g     F .text	0000009e .hidden __truncdfsf2
+08000b28 g       .init_array	00000000 __init_array_end
+08000a68  w    F .text	00000002 fsmc_isr
+08000a68  w    F .text	00000002 dma1_channel1_isr
+08000a68  w    F .text	00000002 exti4_isr
+20000008 g     O .data	00000008 y
+0800029c g     F .text	0000001c debug_force_flush
+080002d4 g     F .text	0000007c _Z11debug_printj
+080009b4 g     F .text	00000010 .hidden __aeabi_cfcmple
+0800069c g     F .text	00000168 .hidden __mulsf3
+08000a68  w    F .text	00000002 mem_manage_handler
+08000a68  w    F .text	00000002 can2_tx_isr
+0800093c g     F .text	0000006e .hidden __gesf2
+08000a68  w    F .text	00000002 exti9_5_isr
+08000a68  w    F .text	00000002 dma2_channel3_isr
+080009c4 g     F .text	00000012 .hidden __aeabi_fcmpeq
+0800069c g     F .text	00000168 .hidden __aeabi_fmul
+08000b28 g       .preinit_array	00000000 __preinit_array_end
+08000a68  w    F .text	00000002 dma1_channel7_isr
+080009ac g     F .text	00000018 .hidden __aeabi_cfrcmple
+20000000 g       .data	00000000 _data
+08000a68  w    F .text	00000002 tim1_up_isr
+080009d8 g     F .text	00000012 .hidden __aeabi_fcmplt
+08000a68  w    F .text	00000002 can2_sce_isr
+08000a68  w    F .text	00000002 tim4_isr
+20000010 g       .data	00000000 _edata
+08000a68  w    F .text	00000002 dma1_channel2_isr
+08000a68  w    F .text	00000002 i2c1_er_isr
+08000a68  w    F .text	00000002 can_sce_isr
+08000a28 g     F .text	0000003e .hidden __aeabi_f2uiz
+08000a6a  w    F .text	00000002 nmi_handler
+0800020c g     F .text	00000090 _Z20debug_flush_internalb
+08000a68  w    F .text	00000002 tim8_cc_isr
+080009b4 g     F .text	00000010 .hidden __aeabi_cfcmpeq
+08000a68  w    F .text	00000002 tamper_isr
+08000b28 g       .init_array	00000000 __init_array_start
+08000a28 g     F .text	0000003e .hidden __fixunssfsi
+08000a68  w    F .text	00000002 eth_wkup_isr
+080005a0 g     F .text	0000005c strlen
+20005000 g       .bss	00000000 _stack
+08000a68  w    F .text	00000002 bus_fault_handler
+08000a68  w    F .text	00000002 wwdg_isr
+08000a68  w    F .text	00000002 dma1_channel3_isr
+08000b28 g       .preinit_array	00000000 __preinit_array_start
+08000a68  w    F .text	00000002 spi3_isr
+08000a68  w    F .text	00000002 tim2_isr
+08000a68  w    F .text	00000002 exti0_isr
+
+
+
+Disassembly of section .text:
+
+08000000 <vector_table>:
+ 8000000:	00 50 00 20 6d 0a 00 08 6b 0a 00 08 69 0a 00 08     .P. m...k...i...
+ 8000010:	69 0a 00 08 69 0a 00 08 69 0a 00 08 00 00 00 00     i...i...i.......
+	...
+ 800002c:	6b 0a 00 08 6b 0a 00 08 00 00 00 00 6b 0a 00 08     k...k.......k...
+ 800003c:	6b 0a 00 08 69 0a 00 08 69 0a 00 08 69 0a 00 08     k...i...i...i...
+ 800004c:	69 0a 00 08 69 0a 00 08 69 0a 00 08 69 0a 00 08     i...i...i...i...
+ 800005c:	69 0a 00 08 69 0a 00 08 69 0a 00 08 69 0a 00 08     i...i...i...i...
+ 800006c:	69 0a 00 08 69 0a 00 08 69 0a 00 08 69 0a 00 08     i...i...i...i...
+ 800007c:	69 0a 00 08 69 0a 00 08 69 0a 00 08 69 0a 00 08     i...i...i...i...
+ 800008c:	69 0a 00 08 69 0a 00 08 69 0a 00 08 69 0a 00 08     i...i...i...i...
+ 800009c:	69 0a 00 08 69 0a 00 08 69 0a 00 08 69 0a 00 08     i...i...i...i...
+ 80000ac:	69 0a 00 08 69 0a 00 08 69 0a 00 08 69 0a 00 08     i...i...i...i...
+ 80000bc:	69 0a 00 08 69 0a 00 08 69 0a 00 08 69 0a 00 08     i...i...i...i...
+ 80000cc:	69 0a 00 08 69 0a 00 08 69 0a 00 08 69 0a 00 08     i...i...i...i...
+ 80000dc:	69 0a 00 08 69 0a 00 08 69 0a 00 08 69 0a 00 08     i...i...i...i...
+ 80000ec:	69 0a 00 08 69 0a 00 08 69 0a 00 08 69 0a 00 08     i...i...i...i...
+ 80000fc:	69 0a 00 08 69 0a 00 08 69 0a 00 08 69 0a 00 08     i...i...i...i...
+ 800010c:	69 0a 00 08 69 0a 00 08 69 0a 00 08 69 0a 00 08     i...i...i...i...
+ 800011c:	69 0a 00 08 69 0a 00 08 69 0a 00 08 69 0a 00 08     i...i...i...i...
+ 800012c:	69 0a 00 08 69 0a 00 08 69 0a 00 08 69 0a 00 08     i...i...i...i...
+ 800013c:	69 0a 00 08 69 0a 00 08 69 0a 00 08 69 0a 00 08     i...i...i...i...
+ 800014c:	69 0a 00 08                                         i...
+
+08000150 <main>:
+main():
+/Users/Luppy/stm32bluepill-math-hack/src/main.c:8
+double x = 123;
+double y = 456;
+double r;
+
+int main(void)
+{	
+ 8000150:	b508      	push	{r3, lr}
+/Users/Luppy/stm32bluepill-math-hack/src/main.c:9
+	enable_log();          //  Enable logging via Arm Semihosting. Note: ST Link must be connected or this line will hang.
+ 8000152:	f000 f855 	bl	8000200 <enable_log>
+/Users/Luppy/stm32bluepill-math-hack/src/main.c:10
+	debug_println("Starting..."); debug_force_flush();
+ 8000156:	480d      	ldr	r0, [pc, #52]	; (800018c <main+0x3c>)
+ 8000158:	f000 f93e 	bl	80003d8 <debug_println>
+ 800015c:	f000 f89e 	bl	800029c <debug_force_flush>
+/Users/Luppy/stm32bluepill-math-hack/src/main.c:12
+
+	r = x * y;             //  r = 123 * 456
+ 8000160:	4b0b      	ldr	r3, [pc, #44]	; (8000190 <main+0x40>)
+ 8000162:	490c      	ldr	r1, [pc, #48]	; (8000194 <main+0x44>)
+ 8000164:	e9d3 2300 	ldrd	r2, r3, [r3]
+ 8000168:	e9d1 0100 	ldrd	r0, r1, [r1]
+ 800016c:	f000 f818 	bl	80001a0 <__wrap___aeabi_dmul>
+ 8000170:	4b09      	ldr	r3, [pc, #36]	; (8000198 <main+0x48>)
+ 8000172:	e9c3 0100 	strd	r0, r1, [r3]
+/Users/Luppy/stm32bluepill-math-hack/src/main.c:13
+	debug_print_float(r);  //  Print the value of 123 * 456.
+ 8000176:	f000 fa41 	bl	80005fc <__aeabi_d2f>
+ 800017a:	f000 f93b 	bl	80003f4 <debug_print_float>
+/Users/Luppy/stm32bluepill-math-hack/src/main.c:15
+
+	debug_println("");
+ 800017e:	4807      	ldr	r0, [pc, #28]	; (800019c <main+0x4c>)
+ 8000180:	f000 f92a 	bl	80003d8 <debug_println>
+/Users/Luppy/stm32bluepill-math-hack/src/main.c:16
+	debug_force_flush();   //  Flush the debug buffer before we halt.
+ 8000184:	f000 f88a 	bl	800029c <debug_force_flush>
+ 8000188:	e7fe      	b.n	8000188 <main+0x38>
+ 800018a:	bf00      	nop
+ 800018c:	08000afc 	.word	0x08000afc
+ 8000190:	20000008 	.word	0x20000008
+ 8000194:	20000000 	.word	0x20000000
+ 8000198:	20000228 	.word	0x20000228
+ 800019c:	08000b26 	.word	0x08000b26
+
+080001a0 <__wrap___aeabi_dmul>:
+__wrap___aeabi_dmul():
+/Users/Luppy/stm32bluepill-math-hack/src/main.c:23
+}
+
+//  double-precision multiplication
+double __wrap___aeabi_dmul(double x, double y) { 
+    return 123456; 
+}
+ 80001a0:	2000      	movs	r0, #0
+ 80001a2:	4901      	ldr	r1, [pc, #4]	; (80001a8 <__wrap___aeabi_dmul+0x8>)
+ 80001a4:	4770      	bx	lr
+ 80001a6:	bf00      	nop
+ 80001a8:	40fe2400 	.word	0x40fe2400
+
+080001ac <_ZL12debug_appendPKcj>:
+_ZL12debug_appendPKcj():
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:170
+    }
+}
+
+static void debug_append(const char *buffer, unsigned int length) {
+    //  Append "length" number of bytes from "buffer" to the debug buffer.
+    if (length >= DEBUG_BUFFER_SIZE) { return; }  //  Don't allow logging of very long messages.
+ 80001ac:	f5b1 7f00 	cmp.w	r1, #512	; 0x200
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:168
+static void debug_append(const char *buffer, unsigned int length) {
+ 80001b0:	b570      	push	{r4, r5, r6, lr}
+ 80001b2:	4606      	mov	r6, r0
+ 80001b4:	460d      	mov	r5, r1
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:170
+    if (length >= DEBUG_BUFFER_SIZE) { return; }  //  Don't allow logging of very long messages.
+ 80001b6:	d210      	bcs.n	80001da <_ZL12debug_appendPKcj+0x2e>
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:171
+    if (debugBufferLength + length >= DEBUG_BUFFER_SIZE) {
+ 80001b8:	4c0e      	ldr	r4, [pc, #56]	; (80001f4 <_ZL12debug_appendPKcj+0x48>)
+ 80001ba:	8823      	ldrh	r3, [r4, #0]
+ 80001bc:	440b      	add	r3, r1
+ 80001be:	f5b3 7f00 	cmp.w	r3, #512	; 0x200
+ 80001c2:	d20b      	bcs.n	80001dc <_ZL12debug_appendPKcj+0x30>
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:179
+        debugBufferLength = 9;
+        //  Still can't fit after clearing.  Quit.
+        if (debugBufferLength + length >= DEBUG_BUFFER_SIZE) { return; }
+    }
+    //  Else append to the buffer.
+    memcpy(&debugBuffer[debugBufferLength], buffer, length);
+ 80001c4:	8823      	ldrh	r3, [r4, #0]
+ 80001c6:	480c      	ldr	r0, [pc, #48]	; (80001f8 <_ZL12debug_appendPKcj+0x4c>)
+ 80001c8:	4631      	mov	r1, r6
+ 80001ca:	462a      	mov	r2, r5
+ 80001cc:	4418      	add	r0, r3
+ 80001ce:	f000 f913 	bl	80003f8 <memcpy>
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:180
+    debugBufferLength += length;
+ 80001d2:	8821      	ldrh	r1, [r4, #0]
+ 80001d4:	4429      	add	r1, r5
+ 80001d6:	b289      	uxth	r1, r1
+ 80001d8:	8021      	strh	r1, [r4, #0]
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:181
+}
+ 80001da:	bd70      	pop	{r4, r5, r6, pc}
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:173
+        strcpy(debugBuffer, "[DROPPED]");
+ 80001dc:	4907      	ldr	r1, [pc, #28]	; (80001fc <_ZL12debug_appendPKcj+0x50>)
+ 80001de:	4806      	ldr	r0, [pc, #24]	; (80001f8 <_ZL12debug_appendPKcj+0x4c>)
+ 80001e0:	f000 f980 	bl	80004e4 <strcpy>
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:174
+        debugBufferLength = 9;
+ 80001e4:	2309      	movs	r3, #9
+ 80001e6:	8023      	strh	r3, [r4, #0]
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:176
+        if (debugBufferLength + length >= DEBUG_BUFFER_SIZE) { return; }
+ 80001e8:	8823      	ldrh	r3, [r4, #0]
+ 80001ea:	442b      	add	r3, r5
+ 80001ec:	f5b3 7f00 	cmp.w	r3, #512	; 0x200
+ 80001f0:	d3e8      	bcc.n	80001c4 <_ZL12debug_appendPKcj+0x18>
+ 80001f2:	e7f2      	b.n	80001da <_ZL12debug_appendPKcj+0x2e>
+ 80001f4:	20000224 	.word	0x20000224
+ 80001f8:	20000011 	.word	0x20000011
+ 80001fc:	08000b1a 	.word	0x08000b1a
+
+08000200 <enable_log>:
+enable_log():
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:11
+void enable_log(void) { logEnabled = true; }
+ 8000200:	2201      	movs	r2, #1
+ 8000202:	4b01      	ldr	r3, [pc, #4]	; (8000208 <enable_log+0x8>)
+ 8000204:	701a      	strb	r2, [r3, #0]
+ 8000206:	4770      	bx	lr
+ 8000208:	20000010 	.word	0x20000010
+
+0800020c <_Z20debug_flush_internalb>:
+_Z20debug_flush_internalb():
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:139
+void debug_flush_internal(bool forced) {
+ 800020c:	e92d 43f0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, lr}
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:141
+    if (!logEnabled) { debugBufferLength = 0; return; }  //  Skip if log not enabled.
+ 8000210:	4b1e      	ldr	r3, [pc, #120]	; (800028c <_Z20debug_flush_internalb+0x80>)
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:139
+void debug_flush_internal(bool forced) {
+ 8000212:	b085      	sub	sp, #20
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:141
+    if (!logEnabled) { debugBufferLength = 0; return; }  //  Skip if log not enabled.
+ 8000214:	781b      	ldrb	r3, [r3, #0]
+ 8000216:	4c1e      	ldr	r4, [pc, #120]	; (8000290 <_Z20debug_flush_internalb+0x84>)
+ 8000218:	b91b      	cbnz	r3, 8000222 <_Z20debug_flush_internalb+0x16>
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:147
+        debugBufferLength = 0;
+ 800021a:	8023      	strh	r3, [r4, #0]
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:153
+}
+ 800021c:	b005      	add	sp, #20
+ 800021e:	e8bd 83f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, pc}
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:142
+    if (debugBufferLength == 0) { return; }  //  Debug buffer is empty, nothing to write.
+ 8000222:	8823      	ldrh	r3, [r4, #0]
+ 8000224:	b29b      	uxth	r3, r3
+ 8000226:	2b00      	cmp	r3, #0
+ 8000228:	d0f8      	beq.n	800021c <_Z20debug_flush_internalb+0x10>
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:143
+	uint16_t outlen = write_all_output((const uint8_t *) debugBuffer, debugBufferLength, forced);
+ 800022a:	8826      	ldrh	r6, [r4, #0]
+ 800022c:	b2b6      	uxth	r6, r6
+write_all_output():
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:121
+    uint16_t outlen = (len > MAX_OUTPUT_LENGTH) ? MAX_OUTPUT_LENGTH : len;
+ 800022e:	2e3c      	cmp	r6, #60	; 0x3c
+ 8000230:	4635      	mov	r5, r6
+ 8000232:	bf28      	it	cs
+ 8000234:	253c      	movcs	r5, #60	; 0x3c
+semihost_write():
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:64
+    if (length == 0) { return 0; }
+ 8000236:	b14e      	cbz	r6, 800024c <_Z20debug_flush_internalb+0x40>
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:66
+    args[0] = (uint32_t)fh;
+ 8000238:	2302      	movs	r3, #2
+ 800023a:	9301      	str	r3, [sp, #4]
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:67
+    args[1] = (uint32_t)buffer;
+ 800023c:	4b15      	ldr	r3, [pc, #84]	; (8000294 <_Z20debug_flush_internalb+0x88>)
+__semihost():
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:39
+	);
+ 800023e:	aa01      	add	r2, sp, #4
+semihost_write():
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:68
+    args[2] = (uint32_t)length;
+ 8000240:	e9cd 3502 	strd	r3, r5, [sp, #8]
+__semihost():
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:39
+	);
+ 8000244:	2305      	movs	r3, #5
+ 8000246:	4618      	mov	r0, r3
+ 8000248:	4611      	mov	r1, r2
+ 800024a:	beab      	bkpt	0x00ab
+write_all_output():
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:130
+    for (int i = 0; i < MAX_OUTPUT_FUNCS; i++) {
+ 800024c:	2700      	movs	r7, #0
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:131
+        if (output_funcs[i]) {
+ 800024e:	f8df 8048 	ldr.w	r8, [pc, #72]	; 8000298 <_Z20debug_flush_internalb+0x8c>
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:133
+            func(buf, outlen);
+ 8000252:	f8df 9040 	ldr.w	r9, [pc, #64]	; 8000294 <_Z20debug_flush_internalb+0x88>
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:131
+        if (output_funcs[i]) {
+ 8000256:	f858 3027 	ldr.w	r3, [r8, r7, lsl #2]
+ 800025a:	b113      	cbz	r3, 8000262 <_Z20debug_flush_internalb+0x56>
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:133
+            func(buf, outlen);
+ 800025c:	4629      	mov	r1, r5
+ 800025e:	4648      	mov	r0, r9
+ 8000260:	4798      	blx	r3
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:130
+    for (int i = 0; i < MAX_OUTPUT_FUNCS; i++) {
+ 8000262:	3701      	adds	r7, #1
+ 8000264:	2f04      	cmp	r7, #4
+ 8000266:	d1f6      	bne.n	8000256 <_Z20debug_flush_internalb+0x4a>
+_Z20debug_flush_internalb():
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:144
+    if (outlen == 0) {
+ 8000268:	2e00      	cmp	r6, #0
+ 800026a:	d0d7      	beq.n	800021c <_Z20debug_flush_internalb+0x10>
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:146
+    } else if (outlen >= debugBufferLength) {
+ 800026c:	8823      	ldrh	r3, [r4, #0]
+ 800026e:	429d      	cmp	r5, r3
+ 8000270:	d301      	bcc.n	8000276 <_Z20debug_flush_internalb+0x6a>
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:147
+        debugBufferLength = 0;
+ 8000272:	2300      	movs	r3, #0
+ 8000274:	e7d1      	b.n	800021a <_Z20debug_flush_internalb+0xe>
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:151
+    memcpy(debugBuffer, &debugBuffer[outlen], debugBufferLength - outlen);
+ 8000276:	8822      	ldrh	r2, [r4, #0]
+ 8000278:	4806      	ldr	r0, [pc, #24]	; (8000294 <_Z20debug_flush_internalb+0x88>)
+ 800027a:	1b52      	subs	r2, r2, r5
+ 800027c:	1941      	adds	r1, r0, r5
+ 800027e:	f000 f8bb 	bl	80003f8 <memcpy>
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:152
+    debugBufferLength -= outlen;
+ 8000282:	8823      	ldrh	r3, [r4, #0]
+ 8000284:	1b5d      	subs	r5, r3, r5
+ 8000286:	b2ad      	uxth	r5, r5
+ 8000288:	8025      	strh	r5, [r4, #0]
+ 800028a:	e7c7      	b.n	800021c <_Z20debug_flush_internalb+0x10>
+ 800028c:	20000010 	.word	0x20000010
+ 8000290:	20000224 	.word	0x20000224
+ 8000294:	20000011 	.word	0x20000011
+ 8000298:	20000214 	.word	0x20000214
+
+0800029c <debug_force_flush>:
+debug_force_flush():
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:160
+void debug_force_flush(void) {
+ 800029c:	b538      	push	{r3, r4, r5, lr}
+ 800029e:	2464      	movs	r4, #100	; 0x64
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:163
+        if (debugBufferLength == 0) { return; }  //  No more chunks.
+ 80002a0:	4d04      	ldr	r5, [pc, #16]	; (80002b4 <debug_force_flush+0x18>)
+ 80002a2:	882b      	ldrh	r3, [r5, #0]
+ 80002a4:	b29b      	uxth	r3, r3
+ 80002a6:	b123      	cbz	r3, 80002b2 <debug_force_flush+0x16>
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:164 (discriminator 2)
+        debug_flush_internal(true);
+ 80002a8:	2001      	movs	r0, #1
+ 80002aa:	f7ff ffaf 	bl	800020c <_Z20debug_flush_internalb>
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:162 (discriminator 2)
+    for (int i = 0; i < 100; i++) {  //  Assume 100 or fewer chunks.
+ 80002ae:	3c01      	subs	r4, #1
+ 80002b0:	d1f7      	bne.n	80002a2 <debug_force_flush+0x6>
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:166
+}
+ 80002b2:	bd38      	pop	{r3, r4, r5, pc}
+ 80002b4:	20000224 	.word	0x20000224
+
+080002b8 <debug_print>:
+debug_print():
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:248
+
+void debug_write(uint8_t ch) {
+	debug_append((const char *) &ch, 1);
+}
+
+void debug_print(const char *s) {
+ 80002b8:	b510      	push	{r4, lr}
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:249
+    if (s[0] == 0) return;
+ 80002ba:	7803      	ldrb	r3, [r0, #0]
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:248
+void debug_print(const char *s) {
+ 80002bc:	4604      	mov	r4, r0
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:249
+    if (s[0] == 0) return;
+ 80002be:	b13b      	cbz	r3, 80002d0 <debug_print+0x18>
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:250
+	debug_append(s, strlen(s));
+ 80002c0:	f000 f96e 	bl	80005a0 <strlen>
+ 80002c4:	4601      	mov	r1, r0
+ 80002c6:	4620      	mov	r0, r4
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:251
+}
+ 80002c8:	e8bd 4010 	ldmia.w	sp!, {r4, lr}
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:250
+	debug_append(s, strlen(s));
+ 80002cc:	f7ff bf6e 	b.w	80001ac <_ZL12debug_appendPKcj>
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:251
+}
+ 80002d0:	bd10      	pop	{r4, pc}
+	...
+
+080002d4 <_Z11debug_printj>:
+_Z11debug_printj():
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:183
+void debug_print(size_t l) {
+ 80002d4:	210a      	movs	r1, #10
+ 80002d6:	b5f0      	push	{r4, r5, r6, r7, lr}
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:191
+    int length = 0;
+ 80002d8:	2300      	movs	r3, #0
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:192
+    for(size_t divisor = 1000000000ul; divisor >= 1; divisor = divisor / 10) {
+ 80002da:	460e      	mov	r6, r1
+ 80002dc:	4c1a      	ldr	r4, [pc, #104]	; (8000348 <_Z11debug_printj+0x74>)
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:183
+void debug_print(size_t l) {
+ 80002de:	b085      	sub	sp, #20
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:193
+        char digit = '0' + (char)(l / divisor);
+ 80002e0:	fbb0 f5f4 	udiv	r5, r0, r4
+ 80002e4:	f105 0230 	add.w	r2, r5, #48	; 0x30
+ 80002e8:	b2d2      	uxtb	r2, r2
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:194
+        if (digit > '9') {
+ 80002ea:	2a39      	cmp	r2, #57	; 0x39
+ 80002ec:	d904      	bls.n	80002f8 <_Z11debug_printj+0x24>
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:195
+            debug_print("(Overflow)");
+ 80002ee:	4817      	ldr	r0, [pc, #92]	; (800034c <_Z11debug_printj+0x78>)
+ 80002f0:	f7ff ffe2 	bl	80002b8 <debug_print>
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:210
+}
+ 80002f4:	b005      	add	sp, #20
+ 80002f6:	bdf0      	pop	{r4, r5, r6, r7, pc}
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:198
+        if (digit > '0' || length > 0 || prefixByZero) {
+ 80002f8:	2a30      	cmp	r2, #48	; 0x30
+ 80002fa:	d800      	bhi.n	80002fe <_Z11debug_printj+0x2a>
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:198 (discriminator 1)
+ 80002fc:	b133      	cbz	r3, 800030c <_Z11debug_printj+0x38>
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:199
+            if (length < size) {
+ 80002fe:	2b0a      	cmp	r3, #10
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:200
+                buffer[length++] = digit;
+ 8000300:	bfdf      	itttt	le
+ 8000302:	af04      	addle	r7, sp, #16
+ 8000304:	18ff      	addle	r7, r7, r3
+ 8000306:	f807 2c0c 	strble.w	r2, [r7, #-12]
+ 800030a:	3301      	addle	r3, #1
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:192 (discriminator 2)
+    for(size_t divisor = 1000000000ul; divisor >= 1; divisor = divisor / 10) {
+ 800030c:	3901      	subs	r1, #1
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:203 (discriminator 2)
+        l = l % divisor;
+ 800030e:	fb04 0015 	mls	r0, r4, r5, r0
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:192 (discriminator 2)
+    for(size_t divisor = 1000000000ul; divisor >= 1; divisor = divisor / 10) {
+ 8000312:	fbb4 f4f6 	udiv	r4, r4, r6
+ 8000316:	d1e3      	bne.n	80002e0 <_Z11debug_printj+0xc>
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:205
+    if (length == 0) { buffer[length++] = '0'; };
+ 8000318:	b94b      	cbnz	r3, 800032e <_Z11debug_printj+0x5a>
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:205 (discriminator 1)
+ 800031a:	2330      	movs	r3, #48	; 0x30
+ 800031c:	f88d 3004 	strb.w	r3, [sp, #4]
+ 8000320:	2301      	movs	r3, #1
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:206 (discriminator 1)
+    if (length < size) buffer[length] = 0;
+ 8000322:	aa04      	add	r2, sp, #16
+ 8000324:	4413      	add	r3, r2
+ 8000326:	2200      	movs	r2, #0
+ 8000328:	f803 2c0c 	strb.w	r2, [r3, #-12]
+ 800032c:	e001      	b.n	8000332 <_Z11debug_printj+0x5e>
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:206
+ 800032e:	2b0a      	cmp	r3, #10
+ 8000330:	ddf7      	ble.n	8000322 <_Z11debug_printj+0x4e>
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:207
+    buffer[size - 1] = 0;  //  Terminate in case of overflow.
+ 8000332:	2300      	movs	r3, #0
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:209
+    debug_append(buffer, strlen(buffer));
+ 8000334:	a801      	add	r0, sp, #4
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:207
+    buffer[size - 1] = 0;  //  Terminate in case of overflow.
+ 8000336:	f88d 300e 	strb.w	r3, [sp, #14]
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:209
+    debug_append(buffer, strlen(buffer));
+ 800033a:	f000 f931 	bl	80005a0 <strlen>
+ 800033e:	4601      	mov	r1, r0
+ 8000340:	a801      	add	r0, sp, #4
+ 8000342:	f7ff ff33 	bl	80001ac <_ZL12debug_appendPKcj>
+ 8000346:	e7d5      	b.n	80002f4 <_Z11debug_printj+0x20>
+ 8000348:	3b9aca00 	.word	0x3b9aca00
+ 800034c:	08000b0f 	.word	0x08000b0f
+
+08000350 <_Z11debug_printf>:
+_Z11debug_printf():
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:221
+void debug_print(float f) {
+ 8000350:	b538      	push	{r3, r4, r5, lr}
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:223
+    if (f == 0) {
+ 8000352:	2100      	movs	r1, #0
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:221
+void debug_print(float f) {
+ 8000354:	4604      	mov	r4, r0
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:223
+    if (f == 0) {
+ 8000356:	f000 fb35 	bl	80009c4 <__aeabi_fcmpeq>
+ 800035a:	b128      	cbz	r0, 8000368 <_Z11debug_printf+0x18>
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:238
+}
+ 800035c:	e8bd 4038 	ldmia.w	sp!, {r3, r4, r5, lr}
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:224
+        debug_append("0.00", 4);
+ 8000360:	2104      	movs	r1, #4
+ 8000362:	4819      	ldr	r0, [pc, #100]	; (80003c8 <_Z11debug_printf+0x78>)
+ 8000364:	f7ff bf22 	b.w	80001ac <_ZL12debug_appendPKcj>
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:226
+    } else if (f < 0) {
+ 8000368:	2100      	movs	r1, #0
+ 800036a:	4620      	mov	r0, r4
+ 800036c:	f000 fb34 	bl	80009d8 <__aeabi_fcmplt>
+ 8000370:	b128      	cbz	r0, 800037e <_Z11debug_printf+0x2e>
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:227
+        debug_append("-", 1);
+ 8000372:	2101      	movs	r1, #1
+ 8000374:	4815      	ldr	r0, [pc, #84]	; (80003cc <_Z11debug_printf+0x7c>)
+ 8000376:	f7ff ff19 	bl	80001ac <_ZL12debug_appendPKcj>
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:228
+        f = -f;
+ 800037a:	f104 4400 	add.w	r4, r4, #2147483648	; 0x80000000
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:231
+    debug_print((size_t) f);
+ 800037e:	4620      	mov	r0, r4
+ 8000380:	f000 fb52 	bl	8000a28 <__aeabi_f2uiz>
+ 8000384:	f7ff ffa6 	bl	80002d4 <_Z11debug_printj>
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:232
+    debug_append(".", 1);
+ 8000388:	2101      	movs	r1, #1
+ 800038a:	4811      	ldr	r0, [pc, #68]	; (80003d0 <_Z11debug_printf+0x80>)
+ 800038c:	f7ff ff0e 	bl	80001ac <_ZL12debug_appendPKcj>
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:234
+    f = f * 10.0;
+ 8000390:	4910      	ldr	r1, [pc, #64]	; (80003d4 <_Z11debug_printf+0x84>)
+ 8000392:	4620      	mov	r0, r4
+ 8000394:	f000 f982 	bl	800069c <__aeabi_fmul>
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:235
+    debug_print(((size_t) f) % 10);
+ 8000398:	240a      	movs	r4, #10
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:234
+    f = f * 10.0;
+ 800039a:	4605      	mov	r5, r0
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:235
+    debug_print(((size_t) f) % 10);
+ 800039c:	f000 fb44 	bl	8000a28 <__aeabi_f2uiz>
+ 80003a0:	fbb0 f3f4 	udiv	r3, r0, r4
+ 80003a4:	fb03 0014 	mls	r0, r3, r4, r0
+ 80003a8:	f7ff ff94 	bl	80002d4 <_Z11debug_printj>
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:236
+    f = f * 10.0;
+ 80003ac:	4909      	ldr	r1, [pc, #36]	; (80003d4 <_Z11debug_printf+0x84>)
+ 80003ae:	4628      	mov	r0, r5
+ 80003b0:	f000 f974 	bl	800069c <__aeabi_fmul>
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:237
+    debug_print(((size_t) f) % 10);
+ 80003b4:	f000 fb38 	bl	8000a28 <__aeabi_f2uiz>
+ 80003b8:	fbb0 f3f4 	udiv	r3, r0, r4
+ 80003bc:	fb03 0014 	mls	r0, r3, r4, r0
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:238
+}
+ 80003c0:	e8bd 4038 	ldmia.w	sp!, {r3, r4, r5, lr}
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:237
+    debug_print(((size_t) f) % 10);
+ 80003c4:	f7ff bf86 	b.w	80002d4 <_Z11debug_printj>
+ 80003c8:	08000b08 	.word	0x08000b08
+ 80003cc:	08000b0d 	.word	0x08000b0d
+ 80003d0:	08000b06 	.word	0x08000b06
+ 80003d4:	41200000 	.word	0x41200000
+
+080003d8 <debug_println>:
+debug_println():
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:253
+
+void debug_println(const char *s) {
+ 80003d8:	b508      	push	{r3, lr}
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:254
+    if (s[0] != 0) { debug_print(s); }
+ 80003da:	7803      	ldrb	r3, [r0, #0]
+ 80003dc:	b10b      	cbz	r3, 80003e2 <debug_println+0xa>
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:254 (discriminator 1)
+ 80003de:	f7ff ff6b 	bl	80002b8 <debug_print>
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:256
+    debug_append("\r\n", 2);
+}
+ 80003e2:	e8bd 4008 	ldmia.w	sp!, {r3, lr}
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:255
+    debug_append("\r\n", 2);
+ 80003e6:	2102      	movs	r1, #2
+ 80003e8:	4801      	ldr	r0, [pc, #4]	; (80003f0 <debug_println+0x18>)
+ 80003ea:	f7ff bedf 	b.w	80001ac <_ZL12debug_appendPKcj>
+ 80003ee:	bf00      	nop
+ 80003f0:	08000b24 	.word	0x08000b24
+
+080003f4 <debug_print_float>:
+debug_print_float():
+/Users/Luppy/stm32bluepill-math-hack/lib/logger/src/logger.cpp:285
+}
+
+void debug_print_int(int i) { debug_print(i); }
+void debug_print_unsigned(size_t l) { debug_print(l); }
+void debug_print_char(char ch) { debug_print(ch); }
+void debug_print_float(float f) { debug_print(f); }
+ 80003f4:	f7ff bfac 	b.w	8000350 <_Z11debug_printf>
+
+080003f8 <memcpy>:
+memcpy():
+ 80003f8:	4684      	mov	ip, r0
+ 80003fa:	ea41 0300 	orr.w	r3, r1, r0
+ 80003fe:	f013 0303 	ands.w	r3, r3, #3
+ 8000402:	d149      	bne.n	8000498 <memcpy+0xa0>
+ 8000404:	3a40      	subs	r2, #64	; 0x40
+ 8000406:	d323      	bcc.n	8000450 <memcpy+0x58>
+ 8000408:	680b      	ldr	r3, [r1, #0]
+ 800040a:	6003      	str	r3, [r0, #0]
+ 800040c:	684b      	ldr	r3, [r1, #4]
+ 800040e:	6043      	str	r3, [r0, #4]
+ 8000410:	688b      	ldr	r3, [r1, #8]
+ 8000412:	6083      	str	r3, [r0, #8]
+ 8000414:	68cb      	ldr	r3, [r1, #12]
+ 8000416:	60c3      	str	r3, [r0, #12]
+ 8000418:	690b      	ldr	r3, [r1, #16]
+ 800041a:	6103      	str	r3, [r0, #16]
+ 800041c:	694b      	ldr	r3, [r1, #20]
+ 800041e:	6143      	str	r3, [r0, #20]
+ 8000420:	698b      	ldr	r3, [r1, #24]
+ 8000422:	6183      	str	r3, [r0, #24]
+ 8000424:	69cb      	ldr	r3, [r1, #28]
+ 8000426:	61c3      	str	r3, [r0, #28]
+ 8000428:	6a0b      	ldr	r3, [r1, #32]
+ 800042a:	6203      	str	r3, [r0, #32]
+ 800042c:	6a4b      	ldr	r3, [r1, #36]	; 0x24
+ 800042e:	6243      	str	r3, [r0, #36]	; 0x24
+ 8000430:	6a8b      	ldr	r3, [r1, #40]	; 0x28
+ 8000432:	6283      	str	r3, [r0, #40]	; 0x28
+ 8000434:	6acb      	ldr	r3, [r1, #44]	; 0x2c
+ 8000436:	62c3      	str	r3, [r0, #44]	; 0x2c
+ 8000438:	6b0b      	ldr	r3, [r1, #48]	; 0x30
+ 800043a:	6303      	str	r3, [r0, #48]	; 0x30
+ 800043c:	6b4b      	ldr	r3, [r1, #52]	; 0x34
+ 800043e:	6343      	str	r3, [r0, #52]	; 0x34
+ 8000440:	6b8b      	ldr	r3, [r1, #56]	; 0x38
+ 8000442:	6383      	str	r3, [r0, #56]	; 0x38
+ 8000444:	6bcb      	ldr	r3, [r1, #60]	; 0x3c
+ 8000446:	63c3      	str	r3, [r0, #60]	; 0x3c
+ 8000448:	3040      	adds	r0, #64	; 0x40
+ 800044a:	3140      	adds	r1, #64	; 0x40
+ 800044c:	3a40      	subs	r2, #64	; 0x40
+ 800044e:	d2db      	bcs.n	8000408 <memcpy+0x10>
+ 8000450:	3230      	adds	r2, #48	; 0x30
+ 8000452:	d30b      	bcc.n	800046c <memcpy+0x74>
+ 8000454:	680b      	ldr	r3, [r1, #0]
+ 8000456:	6003      	str	r3, [r0, #0]
+ 8000458:	684b      	ldr	r3, [r1, #4]
+ 800045a:	6043      	str	r3, [r0, #4]
+ 800045c:	688b      	ldr	r3, [r1, #8]
+ 800045e:	6083      	str	r3, [r0, #8]
+ 8000460:	68cb      	ldr	r3, [r1, #12]
+ 8000462:	60c3      	str	r3, [r0, #12]
+ 8000464:	3010      	adds	r0, #16
+ 8000466:	3110      	adds	r1, #16
+ 8000468:	3a10      	subs	r2, #16
+ 800046a:	d2f3      	bcs.n	8000454 <memcpy+0x5c>
+ 800046c:	320c      	adds	r2, #12
+ 800046e:	d305      	bcc.n	800047c <memcpy+0x84>
+ 8000470:	f851 3b04 	ldr.w	r3, [r1], #4
+ 8000474:	f840 3b04 	str.w	r3, [r0], #4
+ 8000478:	3a04      	subs	r2, #4
+ 800047a:	d2f9      	bcs.n	8000470 <memcpy+0x78>
+ 800047c:	3204      	adds	r2, #4
+ 800047e:	d008      	beq.n	8000492 <memcpy+0x9a>
+ 8000480:	07d2      	lsls	r2, r2, #31
+ 8000482:	bf1c      	itt	ne
+ 8000484:	f811 3b01 	ldrbne.w	r3, [r1], #1
+ 8000488:	f800 3b01 	strbne.w	r3, [r0], #1
+ 800048c:	d301      	bcc.n	8000492 <memcpy+0x9a>
+ 800048e:	880b      	ldrh	r3, [r1, #0]
+ 8000490:	8003      	strh	r3, [r0, #0]
+ 8000492:	4660      	mov	r0, ip
+ 8000494:	4770      	bx	lr
+ 8000496:	bf00      	nop
+ 8000498:	2a08      	cmp	r2, #8
+ 800049a:	d313      	bcc.n	80004c4 <memcpy+0xcc>
+ 800049c:	078b      	lsls	r3, r1, #30
+ 800049e:	d0b1      	beq.n	8000404 <memcpy+0xc>
+ 80004a0:	f010 0303 	ands.w	r3, r0, #3
+ 80004a4:	d0ae      	beq.n	8000404 <memcpy+0xc>
+ 80004a6:	f1c3 0304 	rsb	r3, r3, #4
+ 80004aa:	1ad2      	subs	r2, r2, r3
+ 80004ac:	07db      	lsls	r3, r3, #31
+ 80004ae:	bf1c      	itt	ne
+ 80004b0:	f811 3b01 	ldrbne.w	r3, [r1], #1
+ 80004b4:	f800 3b01 	strbne.w	r3, [r0], #1
+ 80004b8:	d3a4      	bcc.n	8000404 <memcpy+0xc>
+ 80004ba:	f831 3b02 	ldrh.w	r3, [r1], #2
+ 80004be:	f820 3b02 	strh.w	r3, [r0], #2
+ 80004c2:	e79f      	b.n	8000404 <memcpy+0xc>
+ 80004c4:	3a04      	subs	r2, #4
+ 80004c6:	d3d9      	bcc.n	800047c <memcpy+0x84>
+ 80004c8:	3a01      	subs	r2, #1
+ 80004ca:	f811 3b01 	ldrb.w	r3, [r1], #1
+ 80004ce:	f800 3b01 	strb.w	r3, [r0], #1
+ 80004d2:	d2f9      	bcs.n	80004c8 <memcpy+0xd0>
+ 80004d4:	780b      	ldrb	r3, [r1, #0]
+ 80004d6:	7003      	strb	r3, [r0, #0]
+ 80004d8:	784b      	ldrb	r3, [r1, #1]
+ 80004da:	7043      	strb	r3, [r0, #1]
+ 80004dc:	788b      	ldrb	r3, [r1, #2]
+ 80004de:	7083      	strb	r3, [r0, #2]
+ 80004e0:	4660      	mov	r0, ip
+ 80004e2:	4770      	bx	lr
+
+080004e4 <strcpy>:
+strcpy():
+ 80004e4:	ea80 0201 	eor.w	r2, r0, r1
+ 80004e8:	4684      	mov	ip, r0
+ 80004ea:	f012 0f03 	tst.w	r2, #3
+ 80004ee:	d14f      	bne.n	8000590 <strcpy+0xac>
+ 80004f0:	f011 0f03 	tst.w	r1, #3
+ 80004f4:	d132      	bne.n	800055c <strcpy+0x78>
+ 80004f6:	f84d 4d04 	str.w	r4, [sp, #-4]!
+ 80004fa:	f011 0f04 	tst.w	r1, #4
+ 80004fe:	f851 3b04 	ldr.w	r3, [r1], #4
+ 8000502:	d00b      	beq.n	800051c <strcpy+0x38>
+ 8000504:	f1a3 3201 	sub.w	r2, r3, #16843009	; 0x1010101
+ 8000508:	439a      	bics	r2, r3
+ 800050a:	f012 3f80 	tst.w	r2, #2155905152	; 0x80808080
+ 800050e:	bf04      	itt	eq
+ 8000510:	f84c 3b04 	streq.w	r3, [ip], #4
+ 8000514:	f851 3b04 	ldreq.w	r3, [r1], #4
+ 8000518:	d116      	bne.n	8000548 <strcpy+0x64>
+ 800051a:	bf00      	nop
+ 800051c:	f851 4b04 	ldr.w	r4, [r1], #4
+ 8000520:	f1a3 3201 	sub.w	r2, r3, #16843009	; 0x1010101
+ 8000524:	439a      	bics	r2, r3
+ 8000526:	f012 3f80 	tst.w	r2, #2155905152	; 0x80808080
+ 800052a:	f1a4 3201 	sub.w	r2, r4, #16843009	; 0x1010101
+ 800052e:	d10b      	bne.n	8000548 <strcpy+0x64>
+ 8000530:	f84c 3b04 	str.w	r3, [ip], #4
+ 8000534:	43a2      	bics	r2, r4
+ 8000536:	f012 3f80 	tst.w	r2, #2155905152	; 0x80808080
+ 800053a:	bf04      	itt	eq
+ 800053c:	f851 3b04 	ldreq.w	r3, [r1], #4
+ 8000540:	f84c 4b04 	streq.w	r4, [ip], #4
+ 8000544:	d0ea      	beq.n	800051c <strcpy+0x38>
+ 8000546:	4623      	mov	r3, r4
+ 8000548:	f80c 3b01 	strb.w	r3, [ip], #1
+ 800054c:	f013 0fff 	tst.w	r3, #255	; 0xff
+ 8000550:	ea4f 2333 	mov.w	r3, r3, ror #8
+ 8000554:	d1f8      	bne.n	8000548 <strcpy+0x64>
+ 8000556:	f85d 4b04 	ldr.w	r4, [sp], #4
+ 800055a:	4770      	bx	lr
+ 800055c:	f011 0f01 	tst.w	r1, #1
+ 8000560:	d006      	beq.n	8000570 <strcpy+0x8c>
+ 8000562:	f811 2b01 	ldrb.w	r2, [r1], #1
+ 8000566:	f80c 2b01 	strb.w	r2, [ip], #1
+ 800056a:	2a00      	cmp	r2, #0
+ 800056c:	bf08      	it	eq
+ 800056e:	4770      	bxeq	lr
+ 8000570:	f011 0f02 	tst.w	r1, #2
+ 8000574:	d0bf      	beq.n	80004f6 <strcpy+0x12>
+ 8000576:	f831 2b02 	ldrh.w	r2, [r1], #2
+ 800057a:	f012 0fff 	tst.w	r2, #255	; 0xff
+ 800057e:	bf16      	itet	ne
+ 8000580:	f82c 2b02 	strhne.w	r2, [ip], #2
+ 8000584:	f88c 2000 	strbeq.w	r2, [ip]
+ 8000588:	f412 4f7f 	tstne.w	r2, #65280	; 0xff00
+ 800058c:	d1b3      	bne.n	80004f6 <strcpy+0x12>
+ 800058e:	4770      	bx	lr
+ 8000590:	f811 2b01 	ldrb.w	r2, [r1], #1
+ 8000594:	f80c 2b01 	strb.w	r2, [ip], #1
+ 8000598:	2a00      	cmp	r2, #0
+ 800059a:	d1f9      	bne.n	8000590 <strcpy+0xac>
+ 800059c:	4770      	bx	lr
+ 800059e:	bf00      	nop
+
+080005a0 <strlen>:
+strlen():
+ 80005a0:	f020 0103 	bic.w	r1, r0, #3
+ 80005a4:	f010 0003 	ands.w	r0, r0, #3
+ 80005a8:	f1c0 0000 	rsb	r0, r0, #0
+ 80005ac:	f851 3b04 	ldr.w	r3, [r1], #4
+ 80005b0:	f100 0c04 	add.w	ip, r0, #4
+ 80005b4:	ea4f 0ccc 	mov.w	ip, ip, lsl #3
+ 80005b8:	f06f 0200 	mvn.w	r2, #0
+ 80005bc:	bf1c      	itt	ne
+ 80005be:	fa22 f20c 	lsrne.w	r2, r2, ip
+ 80005c2:	4313      	orrne	r3, r2
+ 80005c4:	f04f 0c01 	mov.w	ip, #1
+ 80005c8:	ea4c 2c0c 	orr.w	ip, ip, ip, lsl #8
+ 80005cc:	ea4c 4c0c 	orr.w	ip, ip, ip, lsl #16
+ 80005d0:	eba3 020c 	sub.w	r2, r3, ip
+ 80005d4:	ea22 0203 	bic.w	r2, r2, r3
+ 80005d8:	ea12 12cc 	ands.w	r2, r2, ip, lsl #7
+ 80005dc:	bf04      	itt	eq
+ 80005de:	f851 3b04 	ldreq.w	r3, [r1], #4
+ 80005e2:	3004      	addeq	r0, #4
+ 80005e4:	d0f4      	beq.n	80005d0 <strlen+0x30>
+ 80005e6:	f1c2 0100 	rsb	r1, r2, #0
+ 80005ea:	ea02 0201 	and.w	r2, r2, r1
+ 80005ee:	fab2 f282 	clz	r2, r2
+ 80005f2:	f1c2 021f 	rsb	r2, r2, #31
+ 80005f6:	eb00 00d2 	add.w	r0, r0, r2, lsr #3
+ 80005fa:	4770      	bx	lr
+
+080005fc <__aeabi_d2f>:
+__truncdfsf2():
+ 80005fc:	ea4f 0241 	mov.w	r2, r1, lsl #1
+ 8000600:	f1b2 43e0 	subs.w	r3, r2, #1879048192	; 0x70000000
+ 8000604:	bf24      	itt	cs
+ 8000606:	f5b3 1c00 	subscs.w	ip, r3, #2097152	; 0x200000
+ 800060a:	f1dc 5cfe 	rsbscs	ip, ip, #532676608	; 0x1fc00000
+ 800060e:	d90d      	bls.n	800062c <__aeabi_d2f+0x30>
+ 8000610:	f001 4c00 	and.w	ip, r1, #2147483648	; 0x80000000
+ 8000614:	ea4f 02c0 	mov.w	r2, r0, lsl #3
+ 8000618:	ea4c 7050 	orr.w	r0, ip, r0, lsr #29
+ 800061c:	f1b2 4f00 	cmp.w	r2, #2147483648	; 0x80000000
+ 8000620:	eb40 0083 	adc.w	r0, r0, r3, lsl #2
+ 8000624:	bf08      	it	eq
+ 8000626:	f020 0001 	biceq.w	r0, r0, #1
+ 800062a:	4770      	bx	lr
+ 800062c:	f011 4f80 	tst.w	r1, #1073741824	; 0x40000000
+ 8000630:	d121      	bne.n	8000676 <__aeabi_d2f+0x7a>
+ 8000632:	f113 7238 	adds.w	r2, r3, #48234496	; 0x2e00000
+ 8000636:	bfbc      	itt	lt
+ 8000638:	f001 4000 	andlt.w	r0, r1, #2147483648	; 0x80000000
+ 800063c:	4770      	bxlt	lr
+ 800063e:	f441 1180 	orr.w	r1, r1, #1048576	; 0x100000
+ 8000642:	ea4f 5252 	mov.w	r2, r2, lsr #21
+ 8000646:	f1c2 0218 	rsb	r2, r2, #24
+ 800064a:	f1c2 0c20 	rsb	ip, r2, #32
+ 800064e:	fa10 f30c 	lsls.w	r3, r0, ip
+ 8000652:	fa20 f002 	lsr.w	r0, r0, r2
+ 8000656:	bf18      	it	ne
+ 8000658:	f040 0001 	orrne.w	r0, r0, #1
+ 800065c:	ea4f 23c1 	mov.w	r3, r1, lsl #11
+ 8000660:	ea4f 23d3 	mov.w	r3, r3, lsr #11
+ 8000664:	fa03 fc0c 	lsl.w	ip, r3, ip
+ 8000668:	ea40 000c 	orr.w	r0, r0, ip
+ 800066c:	fa23 f302 	lsr.w	r3, r3, r2
+ 8000670:	ea4f 0343 	mov.w	r3, r3, lsl #1
+ 8000674:	e7cc      	b.n	8000610 <__aeabi_d2f+0x14>
+ 8000676:	ea7f 5362 	mvns.w	r3, r2, asr #21
+ 800067a:	d107      	bne.n	800068c <__aeabi_d2f+0x90>
+ 800067c:	ea50 3301 	orrs.w	r3, r0, r1, lsl #12
+ 8000680:	bf1e      	ittt	ne
+ 8000682:	f04f 40fe 	movne.w	r0, #2130706432	; 0x7f000000
+ 8000686:	f440 0040 	orrne.w	r0, r0, #12582912	; 0xc00000
+ 800068a:	4770      	bxne	lr
+ 800068c:	f001 4000 	and.w	r0, r1, #2147483648	; 0x80000000
+ 8000690:	f040 40fe 	orr.w	r0, r0, #2130706432	; 0x7f000000
+ 8000694:	f440 0000 	orr.w	r0, r0, #8388608	; 0x800000
+ 8000698:	4770      	bx	lr
+ 800069a:	bf00      	nop
+
+0800069c <__aeabi_fmul>:
+__aeabi_fmul():
+ 800069c:	f04f 0cff 	mov.w	ip, #255	; 0xff
+ 80006a0:	ea1c 52d0 	ands.w	r2, ip, r0, lsr #23
+ 80006a4:	bf1e      	ittt	ne
+ 80006a6:	ea1c 53d1 	andsne.w	r3, ip, r1, lsr #23
+ 80006aa:	ea92 0f0c 	teqne	r2, ip
+ 80006ae:	ea93 0f0c 	teqne	r3, ip
+ 80006b2:	d06f      	beq.n	8000794 <__aeabi_fmul+0xf8>
+ 80006b4:	441a      	add	r2, r3
+ 80006b6:	ea80 0c01 	eor.w	ip, r0, r1
+ 80006ba:	0240      	lsls	r0, r0, #9
+ 80006bc:	bf18      	it	ne
+ 80006be:	ea5f 2141 	movsne.w	r1, r1, lsl #9
+ 80006c2:	d01e      	beq.n	8000702 <__aeabi_fmul+0x66>
+ 80006c4:	f04f 6300 	mov.w	r3, #134217728	; 0x8000000
+ 80006c8:	ea43 1050 	orr.w	r0, r3, r0, lsr #5
+ 80006cc:	ea43 1151 	orr.w	r1, r3, r1, lsr #5
+ 80006d0:	fba0 3101 	umull	r3, r1, r0, r1
+ 80006d4:	f00c 4000 	and.w	r0, ip, #2147483648	; 0x80000000
+ 80006d8:	f5b1 0f00 	cmp.w	r1, #8388608	; 0x800000
+ 80006dc:	bf3e      	ittt	cc
+ 80006de:	0049      	lslcc	r1, r1, #1
+ 80006e0:	ea41 71d3 	orrcc.w	r1, r1, r3, lsr #31
+ 80006e4:	005b      	lslcc	r3, r3, #1
+ 80006e6:	ea40 0001 	orr.w	r0, r0, r1
+ 80006ea:	f162 027f 	sbc.w	r2, r2, #127	; 0x7f
+ 80006ee:	2afd      	cmp	r2, #253	; 0xfd
+ 80006f0:	d81d      	bhi.n	800072e <__aeabi_fmul+0x92>
+ 80006f2:	f1b3 4f00 	cmp.w	r3, #2147483648	; 0x80000000
+ 80006f6:	eb40 50c2 	adc.w	r0, r0, r2, lsl #23
+ 80006fa:	bf08      	it	eq
+ 80006fc:	f020 0001 	biceq.w	r0, r0, #1
+ 8000700:	4770      	bx	lr
+ 8000702:	f090 0f00 	teq	r0, #0
+ 8000706:	f00c 4c00 	and.w	ip, ip, #2147483648	; 0x80000000
+ 800070a:	bf08      	it	eq
+ 800070c:	0249      	lsleq	r1, r1, #9
+ 800070e:	ea4c 2050 	orr.w	r0, ip, r0, lsr #9
+ 8000712:	ea40 2051 	orr.w	r0, r0, r1, lsr #9
+ 8000716:	3a7f      	subs	r2, #127	; 0x7f
+ 8000718:	bfc2      	ittt	gt
+ 800071a:	f1d2 03ff 	rsbsgt	r3, r2, #255	; 0xff
+ 800071e:	ea40 50c2 	orrgt.w	r0, r0, r2, lsl #23
+ 8000722:	4770      	bxgt	lr
+ 8000724:	f440 0000 	orr.w	r0, r0, #8388608	; 0x800000
+ 8000728:	f04f 0300 	mov.w	r3, #0
+ 800072c:	3a01      	subs	r2, #1
+ 800072e:	dc5d      	bgt.n	80007ec <__aeabi_fmul+0x150>
+ 8000730:	f112 0f19 	cmn.w	r2, #25
+ 8000734:	bfdc      	itt	le
+ 8000736:	f000 4000 	andle.w	r0, r0, #2147483648	; 0x80000000
+ 800073a:	4770      	bxle	lr
+ 800073c:	f1c2 0200 	rsb	r2, r2, #0
+ 8000740:	0041      	lsls	r1, r0, #1
+ 8000742:	fa21 f102 	lsr.w	r1, r1, r2
+ 8000746:	f1c2 0220 	rsb	r2, r2, #32
+ 800074a:	fa00 fc02 	lsl.w	ip, r0, r2
+ 800074e:	ea5f 0031 	movs.w	r0, r1, rrx
+ 8000752:	f140 0000 	adc.w	r0, r0, #0
+ 8000756:	ea53 034c 	orrs.w	r3, r3, ip, lsl #1
+ 800075a:	bf08      	it	eq
+ 800075c:	ea20 70dc 	biceq.w	r0, r0, ip, lsr #31
+ 8000760:	4770      	bx	lr
+ 8000762:	f092 0f00 	teq	r2, #0
+ 8000766:	f000 4c00 	and.w	ip, r0, #2147483648	; 0x80000000
+ 800076a:	bf02      	ittt	eq
+ 800076c:	0040      	lsleq	r0, r0, #1
+ 800076e:	f410 0f00 	tsteq.w	r0, #8388608	; 0x800000
+ 8000772:	3a01      	subeq	r2, #1
+ 8000774:	d0f9      	beq.n	800076a <__aeabi_fmul+0xce>
+ 8000776:	ea40 000c 	orr.w	r0, r0, ip
+ 800077a:	f093 0f00 	teq	r3, #0
+ 800077e:	f001 4c00 	and.w	ip, r1, #2147483648	; 0x80000000
+ 8000782:	bf02      	ittt	eq
+ 8000784:	0049      	lsleq	r1, r1, #1
+ 8000786:	f411 0f00 	tsteq.w	r1, #8388608	; 0x800000
+ 800078a:	3b01      	subeq	r3, #1
+ 800078c:	d0f9      	beq.n	8000782 <__aeabi_fmul+0xe6>
+ 800078e:	ea41 010c 	orr.w	r1, r1, ip
+ 8000792:	e78f      	b.n	80006b4 <__aeabi_fmul+0x18>
+ 8000794:	ea0c 53d1 	and.w	r3, ip, r1, lsr #23
+ 8000798:	ea92 0f0c 	teq	r2, ip
+ 800079c:	bf18      	it	ne
+ 800079e:	ea93 0f0c 	teqne	r3, ip
+ 80007a2:	d00a      	beq.n	80007ba <__aeabi_fmul+0x11e>
+ 80007a4:	f030 4c00 	bics.w	ip, r0, #2147483648	; 0x80000000
+ 80007a8:	bf18      	it	ne
+ 80007aa:	f031 4c00 	bicsne.w	ip, r1, #2147483648	; 0x80000000
+ 80007ae:	d1d8      	bne.n	8000762 <__aeabi_fmul+0xc6>
+ 80007b0:	ea80 0001 	eor.w	r0, r0, r1
+ 80007b4:	f000 4000 	and.w	r0, r0, #2147483648	; 0x80000000
+ 80007b8:	4770      	bx	lr
+ 80007ba:	f090 0f00 	teq	r0, #0
+ 80007be:	bf17      	itett	ne
+ 80007c0:	f090 4f00 	teqne	r0, #2147483648	; 0x80000000
+ 80007c4:	4608      	moveq	r0, r1
+ 80007c6:	f091 0f00 	teqne	r1, #0
+ 80007ca:	f091 4f00 	teqne	r1, #2147483648	; 0x80000000
+ 80007ce:	d014      	beq.n	80007fa <__aeabi_fmul+0x15e>
+ 80007d0:	ea92 0f0c 	teq	r2, ip
+ 80007d4:	d101      	bne.n	80007da <__aeabi_fmul+0x13e>
+ 80007d6:	0242      	lsls	r2, r0, #9
+ 80007d8:	d10f      	bne.n	80007fa <__aeabi_fmul+0x15e>
+ 80007da:	ea93 0f0c 	teq	r3, ip
+ 80007de:	d103      	bne.n	80007e8 <__aeabi_fmul+0x14c>
+ 80007e0:	024b      	lsls	r3, r1, #9
+ 80007e2:	bf18      	it	ne
+ 80007e4:	4608      	movne	r0, r1
+ 80007e6:	d108      	bne.n	80007fa <__aeabi_fmul+0x15e>
+ 80007e8:	ea80 0001 	eor.w	r0, r0, r1
+ 80007ec:	f000 4000 	and.w	r0, r0, #2147483648	; 0x80000000
+ 80007f0:	f040 40fe 	orr.w	r0, r0, #2130706432	; 0x7f000000
+ 80007f4:	f440 0000 	orr.w	r0, r0, #8388608	; 0x800000
+ 80007f8:	4770      	bx	lr
+ 80007fa:	f040 40fe 	orr.w	r0, r0, #2130706432	; 0x7f000000
+ 80007fe:	f440 0040 	orr.w	r0, r0, #12582912	; 0xc00000
+ 8000802:	4770      	bx	lr
+
+08000804 <__aeabi_fdiv>:
+__aeabi_fdiv():
+ 8000804:	f04f 0cff 	mov.w	ip, #255	; 0xff
+ 8000808:	ea1c 52d0 	ands.w	r2, ip, r0, lsr #23
+ 800080c:	bf1e      	ittt	ne
+ 800080e:	ea1c 53d1 	andsne.w	r3, ip, r1, lsr #23
+ 8000812:	ea92 0f0c 	teqne	r2, ip
+ 8000816:	ea93 0f0c 	teqne	r3, ip
+ 800081a:	d069      	beq.n	80008f0 <__aeabi_fdiv+0xec>
+ 800081c:	eba2 0203 	sub.w	r2, r2, r3
+ 8000820:	ea80 0c01 	eor.w	ip, r0, r1
+ 8000824:	0249      	lsls	r1, r1, #9
+ 8000826:	ea4f 2040 	mov.w	r0, r0, lsl #9
+ 800082a:	d037      	beq.n	800089c <__aeabi_fdiv+0x98>
+ 800082c:	f04f 5380 	mov.w	r3, #268435456	; 0x10000000
+ 8000830:	ea43 1111 	orr.w	r1, r3, r1, lsr #4
+ 8000834:	ea43 1310 	orr.w	r3, r3, r0, lsr #4
+ 8000838:	f00c 4000 	and.w	r0, ip, #2147483648	; 0x80000000
+ 800083c:	428b      	cmp	r3, r1
+ 800083e:	bf38      	it	cc
+ 8000840:	005b      	lslcc	r3, r3, #1
+ 8000842:	f142 027d 	adc.w	r2, r2, #125	; 0x7d
+ 8000846:	f44f 0c00 	mov.w	ip, #8388608	; 0x800000
+ 800084a:	428b      	cmp	r3, r1
+ 800084c:	bf24      	itt	cs
+ 800084e:	1a5b      	subcs	r3, r3, r1
+ 8000850:	ea40 000c 	orrcs.w	r0, r0, ip
+ 8000854:	ebb3 0f51 	cmp.w	r3, r1, lsr #1
+ 8000858:	bf24      	itt	cs
+ 800085a:	eba3 0351 	subcs.w	r3, r3, r1, lsr #1
+ 800085e:	ea40 005c 	orrcs.w	r0, r0, ip, lsr #1
+ 8000862:	ebb3 0f91 	cmp.w	r3, r1, lsr #2
+ 8000866:	bf24      	itt	cs
+ 8000868:	eba3 0391 	subcs.w	r3, r3, r1, lsr #2
+ 800086c:	ea40 009c 	orrcs.w	r0, r0, ip, lsr #2
+ 8000870:	ebb3 0fd1 	cmp.w	r3, r1, lsr #3
+ 8000874:	bf24      	itt	cs
+ 8000876:	eba3 03d1 	subcs.w	r3, r3, r1, lsr #3
+ 800087a:	ea40 00dc 	orrcs.w	r0, r0, ip, lsr #3
+ 800087e:	011b      	lsls	r3, r3, #4
+ 8000880:	bf18      	it	ne
+ 8000882:	ea5f 1c1c 	movsne.w	ip, ip, lsr #4
+ 8000886:	d1e0      	bne.n	800084a <__aeabi_fdiv+0x46>
+ 8000888:	2afd      	cmp	r2, #253	; 0xfd
+ 800088a:	f63f af50 	bhi.w	800072e <__aeabi_fmul+0x92>
+ 800088e:	428b      	cmp	r3, r1
+ 8000890:	eb40 50c2 	adc.w	r0, r0, r2, lsl #23
+ 8000894:	bf08      	it	eq
+ 8000896:	f020 0001 	biceq.w	r0, r0, #1
+ 800089a:	4770      	bx	lr
+ 800089c:	f00c 4c00 	and.w	ip, ip, #2147483648	; 0x80000000
+ 80008a0:	ea4c 2050 	orr.w	r0, ip, r0, lsr #9
+ 80008a4:	327f      	adds	r2, #127	; 0x7f
+ 80008a6:	bfc2      	ittt	gt
+ 80008a8:	f1d2 03ff 	rsbsgt	r3, r2, #255	; 0xff
+ 80008ac:	ea40 50c2 	orrgt.w	r0, r0, r2, lsl #23
+ 80008b0:	4770      	bxgt	lr
+ 80008b2:	f440 0000 	orr.w	r0, r0, #8388608	; 0x800000
+ 80008b6:	f04f 0300 	mov.w	r3, #0
+ 80008ba:	3a01      	subs	r2, #1
+ 80008bc:	e737      	b.n	800072e <__aeabi_fmul+0x92>
+ 80008be:	f092 0f00 	teq	r2, #0
+ 80008c2:	f000 4c00 	and.w	ip, r0, #2147483648	; 0x80000000
+ 80008c6:	bf02      	ittt	eq
+ 80008c8:	0040      	lsleq	r0, r0, #1
+ 80008ca:	f410 0f00 	tsteq.w	r0, #8388608	; 0x800000
+ 80008ce:	3a01      	subeq	r2, #1
+ 80008d0:	d0f9      	beq.n	80008c6 <__aeabi_fdiv+0xc2>
+ 80008d2:	ea40 000c 	orr.w	r0, r0, ip
+ 80008d6:	f093 0f00 	teq	r3, #0
+ 80008da:	f001 4c00 	and.w	ip, r1, #2147483648	; 0x80000000
+ 80008de:	bf02      	ittt	eq
+ 80008e0:	0049      	lsleq	r1, r1, #1
+ 80008e2:	f411 0f00 	tsteq.w	r1, #8388608	; 0x800000
+ 80008e6:	3b01      	subeq	r3, #1
+ 80008e8:	d0f9      	beq.n	80008de <__aeabi_fdiv+0xda>
+ 80008ea:	ea41 010c 	orr.w	r1, r1, ip
+ 80008ee:	e795      	b.n	800081c <__aeabi_fdiv+0x18>
+ 80008f0:	ea0c 53d1 	and.w	r3, ip, r1, lsr #23
+ 80008f4:	ea92 0f0c 	teq	r2, ip
+ 80008f8:	d108      	bne.n	800090c <__aeabi_fdiv+0x108>
+ 80008fa:	0242      	lsls	r2, r0, #9
+ 80008fc:	f47f af7d 	bne.w	80007fa <__aeabi_fmul+0x15e>
+ 8000900:	ea93 0f0c 	teq	r3, ip
+ 8000904:	f47f af70 	bne.w	80007e8 <__aeabi_fmul+0x14c>
+ 8000908:	4608      	mov	r0, r1
+ 800090a:	e776      	b.n	80007fa <__aeabi_fmul+0x15e>
+ 800090c:	ea93 0f0c 	teq	r3, ip
+ 8000910:	d104      	bne.n	800091c <__aeabi_fdiv+0x118>
+ 8000912:	024b      	lsls	r3, r1, #9
+ 8000914:	f43f af4c 	beq.w	80007b0 <__aeabi_fmul+0x114>
+ 8000918:	4608      	mov	r0, r1
+ 800091a:	e76e      	b.n	80007fa <__aeabi_fmul+0x15e>
+ 800091c:	f030 4c00 	bics.w	ip, r0, #2147483648	; 0x80000000
+ 8000920:	bf18      	it	ne
+ 8000922:	f031 4c00 	bicsne.w	ip, r1, #2147483648	; 0x80000000
+ 8000926:	d1ca      	bne.n	80008be <__aeabi_fdiv+0xba>
+ 8000928:	f030 4200 	bics.w	r2, r0, #2147483648	; 0x80000000
+ 800092c:	f47f af5c 	bne.w	80007e8 <__aeabi_fmul+0x14c>
+ 8000930:	f031 4300 	bics.w	r3, r1, #2147483648	; 0x80000000
+ 8000934:	f47f af3c 	bne.w	80007b0 <__aeabi_fmul+0x114>
+ 8000938:	e75f      	b.n	80007fa <__aeabi_fmul+0x15e>
+ 800093a:	bf00      	nop
+
+0800093c <__gesf2>:
+__gesf2():
+ 800093c:	f04f 3cff 	mov.w	ip, #4294967295	; 0xffffffff
+ 8000940:	e006      	b.n	8000950 <__cmpsf2+0x4>
+ 8000942:	bf00      	nop
+
+08000944 <__lesf2>:
+__ltsf2():
+ 8000944:	f04f 0c01 	mov.w	ip, #1
+ 8000948:	e002      	b.n	8000950 <__cmpsf2+0x4>
+ 800094a:	bf00      	nop
+
+0800094c <__cmpsf2>:
+__cmpsf2():
+ 800094c:	f04f 0c01 	mov.w	ip, #1
+ 8000950:	f84d cd04 	str.w	ip, [sp, #-4]!
+ 8000954:	ea4f 0240 	mov.w	r2, r0, lsl #1
+ 8000958:	ea4f 0341 	mov.w	r3, r1, lsl #1
+ 800095c:	ea7f 6c22 	mvns.w	ip, r2, asr #24
+ 8000960:	bf18      	it	ne
+ 8000962:	ea7f 6c23 	mvnsne.w	ip, r3, asr #24
+ 8000966:	d011      	beq.n	800098c <__cmpsf2+0x40>
+ 8000968:	b001      	add	sp, #4
+ 800096a:	ea52 0c53 	orrs.w	ip, r2, r3, lsr #1
+ 800096e:	bf18      	it	ne
+ 8000970:	ea90 0f01 	teqne	r0, r1
+ 8000974:	bf58      	it	pl
+ 8000976:	ebb2 0003 	subspl.w	r0, r2, r3
+ 800097a:	bf88      	it	hi
+ 800097c:	17c8      	asrhi	r0, r1, #31
+ 800097e:	bf38      	it	cc
+ 8000980:	ea6f 70e1 	mvncc.w	r0, r1, asr #31
+ 8000984:	bf18      	it	ne
+ 8000986:	f040 0001 	orrne.w	r0, r0, #1
+ 800098a:	4770      	bx	lr
+ 800098c:	ea7f 6c22 	mvns.w	ip, r2, asr #24
+ 8000990:	d102      	bne.n	8000998 <__cmpsf2+0x4c>
+ 8000992:	ea5f 2c40 	movs.w	ip, r0, lsl #9
+ 8000996:	d105      	bne.n	80009a4 <__cmpsf2+0x58>
+ 8000998:	ea7f 6c23 	mvns.w	ip, r3, asr #24
+ 800099c:	d1e4      	bne.n	8000968 <__cmpsf2+0x1c>
+ 800099e:	ea5f 2c41 	movs.w	ip, r1, lsl #9
+ 80009a2:	d0e1      	beq.n	8000968 <__cmpsf2+0x1c>
+ 80009a4:	f85d 0b04 	ldr.w	r0, [sp], #4
+ 80009a8:	4770      	bx	lr
+ 80009aa:	bf00      	nop
+
+080009ac <__aeabi_cfrcmple>:
+__aeabi_cfrcmple():
+ 80009ac:	4684      	mov	ip, r0
+ 80009ae:	4608      	mov	r0, r1
+ 80009b0:	4661      	mov	r1, ip
+ 80009b2:	e7ff      	b.n	80009b4 <__aeabi_cfcmpeq>
+
+080009b4 <__aeabi_cfcmpeq>:
+__aeabi_cfcmpeq():
+ 80009b4:	b50f      	push	{r0, r1, r2, r3, lr}
+ 80009b6:	f7ff ffc9 	bl	800094c <__cmpsf2>
+ 80009ba:	2800      	cmp	r0, #0
+ 80009bc:	bf48      	it	mi
+ 80009be:	f110 0f00 	cmnmi.w	r0, #0
+ 80009c2:	bd0f      	pop	{r0, r1, r2, r3, pc}
+
+080009c4 <__aeabi_fcmpeq>:
+__aeabi_fcmpeq():
+ 80009c4:	f84d ed08 	str.w	lr, [sp, #-8]!
+ 80009c8:	f7ff fff4 	bl	80009b4 <__aeabi_cfcmpeq>
+ 80009cc:	bf0c      	ite	eq
+ 80009ce:	2001      	moveq	r0, #1
+ 80009d0:	2000      	movne	r0, #0
+ 80009d2:	f85d fb08 	ldr.w	pc, [sp], #8
+ 80009d6:	bf00      	nop
+
+080009d8 <__aeabi_fcmplt>:
+__aeabi_fcmplt():
+ 80009d8:	f84d ed08 	str.w	lr, [sp, #-8]!
+ 80009dc:	f7ff ffea 	bl	80009b4 <__aeabi_cfcmpeq>
+ 80009e0:	bf34      	ite	cc
+ 80009e2:	2001      	movcc	r0, #1
+ 80009e4:	2000      	movcs	r0, #0
+ 80009e6:	f85d fb08 	ldr.w	pc, [sp], #8
+ 80009ea:	bf00      	nop
+
+080009ec <__aeabi_fcmple>:
+__aeabi_fcmple():
+ 80009ec:	f84d ed08 	str.w	lr, [sp, #-8]!
+ 80009f0:	f7ff ffe0 	bl	80009b4 <__aeabi_cfcmpeq>
+ 80009f4:	bf94      	ite	ls
+ 80009f6:	2001      	movls	r0, #1
+ 80009f8:	2000      	movhi	r0, #0
+ 80009fa:	f85d fb08 	ldr.w	pc, [sp], #8
+ 80009fe:	bf00      	nop
+
+08000a00 <__aeabi_fcmpge>:
+__aeabi_fcmpge():
+ 8000a00:	f84d ed08 	str.w	lr, [sp, #-8]!
+ 8000a04:	f7ff ffd2 	bl	80009ac <__aeabi_cfrcmple>
+ 8000a08:	bf94      	ite	ls
+ 8000a0a:	2001      	movls	r0, #1
+ 8000a0c:	2000      	movhi	r0, #0
+ 8000a0e:	f85d fb08 	ldr.w	pc, [sp], #8
+ 8000a12:	bf00      	nop
+
+08000a14 <__aeabi_fcmpgt>:
+__aeabi_fcmpgt():
+ 8000a14:	f84d ed08 	str.w	lr, [sp, #-8]!
+ 8000a18:	f7ff ffc8 	bl	80009ac <__aeabi_cfrcmple>
+ 8000a1c:	bf34      	ite	cc
+ 8000a1e:	2001      	movcc	r0, #1
+ 8000a20:	2000      	movcs	r0, #0
+ 8000a22:	f85d fb08 	ldr.w	pc, [sp], #8
+ 8000a26:	bf00      	nop
+
+08000a28 <__aeabi_f2uiz>:
+__fixunssfsi():
+ 8000a28:	0042      	lsls	r2, r0, #1
+ 8000a2a:	d20e      	bcs.n	8000a4a <__aeabi_f2uiz+0x22>
+ 8000a2c:	f1b2 4ffe 	cmp.w	r2, #2130706432	; 0x7f000000
+ 8000a30:	d30b      	bcc.n	8000a4a <__aeabi_f2uiz+0x22>
+ 8000a32:	f04f 039e 	mov.w	r3, #158	; 0x9e
+ 8000a36:	ebb3 6212 	subs.w	r2, r3, r2, lsr #24
+ 8000a3a:	d409      	bmi.n	8000a50 <__aeabi_f2uiz+0x28>
+ 8000a3c:	ea4f 2300 	mov.w	r3, r0, lsl #8
+ 8000a40:	f043 4300 	orr.w	r3, r3, #2147483648	; 0x80000000
+ 8000a44:	fa23 f002 	lsr.w	r0, r3, r2
+ 8000a48:	4770      	bx	lr
+ 8000a4a:	f04f 0000 	mov.w	r0, #0
+ 8000a4e:	4770      	bx	lr
+ 8000a50:	f112 0f61 	cmn.w	r2, #97	; 0x61
+ 8000a54:	d101      	bne.n	8000a5a <__aeabi_f2uiz+0x32>
+ 8000a56:	0242      	lsls	r2, r0, #9
+ 8000a58:	d102      	bne.n	8000a60 <__aeabi_f2uiz+0x38>
+ 8000a5a:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
+ 8000a5e:	4770      	bx	lr
+ 8000a60:	f04f 0000 	mov.w	r0, #0
+ 8000a64:	4770      	bx	lr
+ 8000a66:	bf00      	nop
+
+08000a68 <blocking_handler>:
+blocking_handler():
+/Users/Luppy/.platformio/packages/framework-libopencm3/lib/cm3/vector.c:104
+	}
+
+}
+
+void blocking_handler(void)
+{
+ 8000a68:	e7fe      	b.n	8000a68 <blocking_handler>
+
+08000a6a <null_handler>:
+null_handler():
+/Users/Luppy/.platformio/packages/framework-libopencm3/lib/cm3/vector.c:111
+}
+
+void null_handler(void)
+{
+	/* Do nothing. */
+}
+ 8000a6a:	4770      	bx	lr
+
+08000a6c <reset_handler>:
+reset_handler():
+/Users/Luppy/.platformio/packages/framework-libopencm3/lib/cm3/vector.c:68
+	for (src = &_data_loadaddr, dest = &_data;
+ 8000a6c:	2200      	movs	r2, #0
+ 8000a6e:	4c18      	ldr	r4, [pc, #96]	; (8000ad0 <reset_handler+0x64>)
+ 8000a70:	4918      	ldr	r1, [pc, #96]	; (8000ad4 <reset_handler+0x68>)
+ 8000a72:	4819      	ldr	r0, [pc, #100]	; (8000ad8 <reset_handler+0x6c>)
+ 8000a74:	1853      	adds	r3, r2, r1
+/Users/Luppy/.platformio/packages/framework-libopencm3/lib/cm3/vector.c:68 (discriminator 1)
+ 8000a76:	4283      	cmp	r3, r0
+ 8000a78:	d316      	bcc.n	8000aa8 <reset_handler+0x3c>
+/Users/Luppy/.platformio/packages/framework-libopencm3/lib/cm3/vector.c:75
+		*dest++ = 0;
+ 8000a7a:	2100      	movs	r1, #0
+/Users/Luppy/.platformio/packages/framework-libopencm3/lib/cm3/vector.c:74
+	while (dest < &_ebss) {
+ 8000a7c:	4a17      	ldr	r2, [pc, #92]	; (8000adc <reset_handler+0x70>)
+ 8000a7e:	4293      	cmp	r3, r2
+ 8000a80:	d316      	bcc.n	8000ab0 <reset_handler+0x44>
+/Users/Luppy/.platformio/packages/framework-libopencm3/lib/cm3/vector.c:80
+	SCB_CCR |= SCB_CCR_STKALIGN;
+ 8000a82:	4a17      	ldr	r2, [pc, #92]	; (8000ae0 <reset_handler+0x74>)
+/Users/Luppy/.platformio/packages/framework-libopencm3/lib/cm3/vector.c:86
+	for (fp = &__preinit_array_start; fp < &__preinit_array_end; fp++) {
+ 8000a84:	4c17      	ldr	r4, [pc, #92]	; (8000ae4 <reset_handler+0x78>)
+/Users/Luppy/.platformio/packages/framework-libopencm3/lib/cm3/vector.c:80
+	SCB_CCR |= SCB_CCR_STKALIGN;
+ 8000a86:	6813      	ldr	r3, [r2, #0]
+/Users/Luppy/.platformio/packages/framework-libopencm3/lib/cm3/vector.c:86
+	for (fp = &__preinit_array_start; fp < &__preinit_array_end; fp++) {
+ 8000a88:	4d17      	ldr	r5, [pc, #92]	; (8000ae8 <reset_handler+0x7c>)
+/Users/Luppy/.platformio/packages/framework-libopencm3/lib/cm3/vector.c:80
+	SCB_CCR |= SCB_CCR_STKALIGN;
+ 8000a8a:	f443 7300 	orr.w	r3, r3, #512	; 0x200
+ 8000a8e:	6013      	str	r3, [r2, #0]
+/Users/Luppy/.platformio/packages/framework-libopencm3/lib/cm3/vector.c:86 (discriminator 1)
+	for (fp = &__preinit_array_start; fp < &__preinit_array_end; fp++) {
+ 8000a90:	42ac      	cmp	r4, r5
+ 8000a92:	d310      	bcc.n	8000ab6 <reset_handler+0x4a>
+/Users/Luppy/.platformio/packages/framework-libopencm3/lib/cm3/vector.c:89
+	for (fp = &__init_array_start; fp < &__init_array_end; fp++) {
+ 8000a94:	4c15      	ldr	r4, [pc, #84]	; (8000aec <reset_handler+0x80>)
+ 8000a96:	4d16      	ldr	r5, [pc, #88]	; (8000af0 <reset_handler+0x84>)
+/Users/Luppy/.platformio/packages/framework-libopencm3/lib/cm3/vector.c:89 (discriminator 1)
+ 8000a98:	42ac      	cmp	r4, r5
+ 8000a9a:	d310      	bcc.n	8000abe <reset_handler+0x52>
+/Users/Luppy/.platformio/packages/framework-libopencm3/lib/cm3/vector.c:94
+	main();
+ 8000a9c:	f7ff fb58 	bl	8000150 <main>
+/Users/Luppy/.platformio/packages/framework-libopencm3/lib/cm3/vector.c:97
+	for (fp = &__fini_array_start; fp < &__fini_array_end; fp++) {
+ 8000aa0:	4c14      	ldr	r4, [pc, #80]	; (8000af4 <reset_handler+0x88>)
+ 8000aa2:	4d15      	ldr	r5, [pc, #84]	; (8000af8 <reset_handler+0x8c>)
+/Users/Luppy/.platformio/packages/framework-libopencm3/lib/cm3/vector.c:97 (discriminator 1)
+ 8000aa4:	42ac      	cmp	r4, r5
+ 8000aa6:	d30e      	bcc.n	8000ac6 <reset_handler+0x5a>
+/Users/Luppy/.platformio/packages/framework-libopencm3/lib/cm3/vector.c:71
+		*dest = *src;
+ 8000aa8:	5913      	ldr	r3, [r2, r4]
+ 8000aaa:	5053      	str	r3, [r2, r1]
+ 8000aac:	3204      	adds	r2, #4
+ 8000aae:	e7e1      	b.n	8000a74 <reset_handler+0x8>
+/Users/Luppy/.platformio/packages/framework-libopencm3/lib/cm3/vector.c:75
+		*dest++ = 0;
+ 8000ab0:	6019      	str	r1, [r3, #0]
+ 8000ab2:	3304      	adds	r3, #4
+ 8000ab4:	e7e3      	b.n	8000a7e <reset_handler+0x12>
+/Users/Luppy/.platformio/packages/framework-libopencm3/lib/cm3/vector.c:87 (discriminator 3)
+		(*fp)();
+ 8000ab6:	f854 3b04 	ldr.w	r3, [r4], #4
+ 8000aba:	4798      	blx	r3
+ 8000abc:	e7e8      	b.n	8000a90 <reset_handler+0x24>
+/Users/Luppy/.platformio/packages/framework-libopencm3/lib/cm3/vector.c:90 (discriminator 3)
+		(*fp)();
+ 8000abe:	f854 3b04 	ldr.w	r3, [r4], #4
+ 8000ac2:	4798      	blx	r3
+ 8000ac4:	e7e8      	b.n	8000a98 <reset_handler+0x2c>
+/Users/Luppy/.platformio/packages/framework-libopencm3/lib/cm3/vector.c:98 (discriminator 3)
+		(*fp)();
+ 8000ac6:	f854 3b04 	ldr.w	r3, [r4], #4
+ 8000aca:	4798      	blx	r3
+ 8000acc:	e7ea      	b.n	8000aa4 <reset_handler+0x38>
+ 8000ace:	bf00      	nop
+ 8000ad0:	08000b28 	.word	0x08000b28
+ 8000ad4:	20000000 	.word	0x20000000
+ 8000ad8:	20000010 	.word	0x20000010
+ 8000adc:	20000230 	.word	0x20000230
+ 8000ae0:	e000ed14 	.word	0xe000ed14
+ 8000ae4:	08000b28 	.word	0x08000b28
+ 8000ae8:	08000b28 	.word	0x08000b28
+ 8000aec:	08000b28 	.word	0x08000b28
+ 8000af0:	08000b28 	.word	0x08000b28
+ 8000af4:	08000b28 	.word	0x08000b28
+ 8000af8:	08000b28 	.word	0x08000b28
+ 8000afc:	72617453 	.word	0x72617453
+ 8000b00:	676e6974 	.word	0x676e6974
+ 8000b04:	002e2e2e 	.word	0x002e2e2e
+ 8000b08:	30302e30 	.word	0x30302e30
+ 8000b0c:	00          	.byte	0x00
+ 8000b0d:	002d      	.short	0x002d
+ 8000b0f:	28          	.byte	0x28
+ 8000b10:	7265764f 	.word	0x7265764f
+ 8000b14:	776f6c66 	.word	0x776f6c66
+ 8000b18:	0029      	.short	0x0029
+ 8000b1a:	445b      	.short	0x445b
+ 8000b1c:	50504f52 	.word	0x50504f52
+ 8000b20:	005d4445 	.word	0x005d4445
+ 8000b24:	00000a0d 	.word	0x00000a0d
