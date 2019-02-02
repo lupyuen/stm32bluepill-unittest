@@ -6,10 +6,18 @@ Archive member included to satisfy reference by file (symbol)
                               .pioenvs/bluepill_f103c8/src/main.o (UnityAssertEqualNumber)
 .pioenvs/bluepill_f103c8/lib55c/libnano-float.a(functions.o)
                               .pioenvs/bluepill_f103c8/src/main.o (get_float_usage)
+/Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memcpy.o)
+                              .pioenvs/bluepill_f103c8/libe06/liblogger.a(logger.o) (memcpy)
+/Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memset.o)
+                              .pioenvs/bluepill_f103c8/lib950/libunity.a(unity.o) (memset)
+/Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strcpy.o)
+                              .pioenvs/bluepill_f103c8/libe06/liblogger.a(logger.o) (strcpy)
+/Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strlen-stub.o)
+                              .pioenvs/bluepill_f103c8/libe06/liblogger.a(logger.o) (strlen)
 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_addsubdf3.o)
                               .pioenvs/bluepill_f103c8/lib950/libunity.a(unity.o) (__aeabi_dsub)
 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_muldivdf3.o)
-                              .pioenvs/bluepill_f103c8/src/main.o (__aeabi_ddiv)
+                              .pioenvs/bluepill_f103c8/src/main.o (__aeabi_dmul)
 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_cmpdf2.o)
                               .pioenvs/bluepill_f103c8/lib950/libunity.a(unity.o) (__aeabi_dcmpeq)
 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_unorddf2.o)
@@ -26,14 +34,6 @@ Archive member included to satisfy reference by file (symbol)
                               .pioenvs/bluepill_f103c8/libe06/liblogger.a(logger.o) (__aeabi_fcmpeq)
 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_fixunssfsi.o)
                               .pioenvs/bluepill_f103c8/libe06/liblogger.a(logger.o) (__aeabi_f2uiz)
-/Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memcpy.o)
-                              .pioenvs/bluepill_f103c8/libe06/liblogger.a(logger.o) (memcpy)
-/Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memset.o)
-                              .pioenvs/bluepill_f103c8/lib950/libunity.a(unity.o) (memset)
-/Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strcpy.o)
-                              .pioenvs/bluepill_f103c8/libe06/liblogger.a(logger.o) (strcpy)
-/Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strlen-stub.o)
-                              .pioenvs/bluepill_f103c8/libe06/liblogger.a(logger.o) (strlen)
 .pioenvs/bluepill_f103c8/libFrameworkLibOpenCM3.a(vector.o)
                               (reset_handler)
 .pioenvs/bluepill_f103c8/libb9c/libqfplib.a(qfplib.o)
@@ -192,6 +192,17 @@ Discarded input sections
  .data          0x0000000000000000        0x0 .pioenvs/bluepill_f103c8/lib55c/libnano-float.a(functions.o)
  .bss           0x0000000000000000        0x0 .pioenvs/bluepill_f103c8/lib55c/libnano-float.a(functions.o)
  .text.fabs     0x0000000000000000       0x74 .pioenvs/bluepill_f103c8/lib55c/libnano-float.a(functions.o)
+ .data          0x0000000000000000        0x0 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memcpy.o)
+ .bss           0x0000000000000000        0x0 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memcpy.o)
+ .text          0x0000000000000000        0x0 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memset.o)
+ .data          0x0000000000000000        0x0 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memset.o)
+ .text          0x0000000000000000        0x0 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strcpy.o)
+ .data          0x0000000000000000        0x0 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strcpy.o)
+ .bss           0x0000000000000000        0x0 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strcpy.o)
+ .text          0x0000000000000000        0x0 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strlen-stub.o)
+ .data          0x0000000000000000        0x0 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strlen-stub.o)
+ .bss           0x0000000000000000        0x0 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strlen-stub.o)
  .data          0x0000000000000000        0x0 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_addsubdf3.o)
  .bss           0x0000000000000000        0x0 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_addsubdf3.o)
  .data          0x0000000000000000        0x0 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_muldivdf3.o)
@@ -216,17 +227,6 @@ Discarded input sections
  .debug_frame   0x0000000000000000       0x24 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_fixunssfsi.o)
  .ARM.attributes
                 0x0000000000000000       0x1d /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_fixunssfsi.o)
- .data          0x0000000000000000        0x0 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memcpy.o)
- .bss           0x0000000000000000        0x0 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memcpy.o)
- .text          0x0000000000000000        0x0 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memset.o)
- .data          0x0000000000000000        0x0 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memset.o)
- .bss           0x0000000000000000        0x0 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memset.o)
- .text          0x0000000000000000        0x0 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strcpy.o)
- .data          0x0000000000000000        0x0 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strcpy.o)
- .bss           0x0000000000000000        0x0 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strcpy.o)
- .text          0x0000000000000000        0x0 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strlen-stub.o)
- .data          0x0000000000000000        0x0 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strlen-stub.o)
- .bss           0x0000000000000000        0x0 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strlen-stub.o)
  .text          0x0000000000000000        0x0 .pioenvs/bluepill_f103c8/libFrameworkLibOpenCM3.a(vector.o)
  .data          0x0000000000000000        0x0 .pioenvs/bluepill_f103c8/libFrameworkLibOpenCM3.a(vector.o)
  .bss           0x0000000000000000        0x0 .pioenvs/bluepill_f103c8/libFrameworkLibOpenCM3.a(vector.o)
@@ -248,7 +248,6 @@ LOAD .pioenvs/bluepill_f103c8/libe06/liblogger.a
 LOAD .pioenvs/bluepill_f103c8/lib950/libunity.a
 LOAD .pioenvs/bluepill_f103c8/libb9c/libqfplib.a
 LOAD .pioenvs/bluepill_f103c8/lib55c/libnano-float.a
-LOAD /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a
 LOAD /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a
 LOAD /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a
 LOAD /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a
@@ -626,95 +625,95 @@ END GROUP
                 0x000000000800556c                ceil
  .text.fmod     0x00000000080055ec      0x144 .pioenvs/bluepill_f103c8/lib55c/libnano-float.a(functions.o)
                 0x00000000080055ec                fmod
- .text          0x0000000008005730      0x378 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_addsubdf3.o)
-                0x0000000008005730                __aeabi_drsub
-                0x0000000008005738                __subdf3
-                0x0000000008005738                __aeabi_dsub
-                0x000000000800573c                __aeabi_dadd
-                0x000000000800573c                __adddf3
-                0x00000000080059b4                __aeabi_ui2d
-                0x00000000080059b4                __floatunsidf
-                0x00000000080059d4                __floatsidf
-                0x00000000080059d4                __aeabi_i2d
-                0x00000000080059f8                __extendsfdf2
-                0x00000000080059f8                __aeabi_f2d
-                0x0000000008005a3c                __aeabi_ul2d
-                0x0000000008005a3c                __floatundidf
-                0x0000000008005a4c                __aeabi_l2d
-                0x0000000008005a4c                __floatdidf
- .text          0x0000000008005aa8      0x424 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_muldivdf3.o)
-                0x0000000008005aa8                __aeabi_dmul
-                0x0000000008005aa8                __muldf3
-                0x0000000008005cfc                __aeabi_ddiv
-                0x0000000008005cfc                __divdf3
- .text          0x0000000008005ecc      0x110 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_cmpdf2.o)
-                0x0000000008005ecc                __gedf2
-                0x0000000008005ecc                __gtdf2
-                0x0000000008005ed4                __ledf2
-                0x0000000008005ed4                __ltdf2
-                0x0000000008005edc                __cmpdf2
-                0x0000000008005edc                __eqdf2
-                0x0000000008005edc                __nedf2
-                0x0000000008005f58                __aeabi_cdrcmple
-                0x0000000008005f68                __aeabi_cdcmple
-                0x0000000008005f68                __aeabi_cdcmpeq
-                0x0000000008005f78                __aeabi_dcmpeq
-                0x0000000008005f8c                __aeabi_dcmplt
-                0x0000000008005fa0                __aeabi_dcmple
-                0x0000000008005fb4                __aeabi_dcmpge
-                0x0000000008005fc8                __aeabi_dcmpgt
- .text          0x0000000008005fdc       0x2c /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_unorddf2.o)
-                0x0000000008005fdc                __aeabi_dcmpun
-                0x0000000008005fdc                __unorddf2
- .text          0x0000000008006008       0x50 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_fixdfsi.o)
-                0x0000000008006008                __fixdfsi
-                0x0000000008006008                __aeabi_d2iz
- .text          0x0000000008006058       0xa0 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_truncdfsf2.o)
-                0x0000000008006058                __aeabi_d2f
-                0x0000000008006058                __truncdfsf2
- .text          0x00000000080060f8      0x21c /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_addsubsf3.o)
-                0x00000000080060f8                __aeabi_frsub
-                0x0000000008006100                __aeabi_fsub
-                0x0000000008006100                __subsf3
-                0x0000000008006104                __aeabi_fadd
-                0x0000000008006104                __addsf3
-                0x0000000008006264                __aeabi_ui2f
-                0x0000000008006264                __floatunsisf
-                0x000000000800626c                __floatsisf
-                0x000000000800626c                __aeabi_i2f
-                0x0000000008006288                __aeabi_ul2f
-                0x0000000008006288                __floatundisf
-                0x0000000008006298                __aeabi_l2f
-                0x0000000008006298                __floatdisf
- .text          0x0000000008006314      0x2a0 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_muldivsf3.o)
-                0x0000000008006314                __mulsf3
-                0x0000000008006314                __aeabi_fmul
-                0x000000000800647c                __divsf3
-                0x000000000800647c                __aeabi_fdiv
- .text          0x00000000080065b4       0xec /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_cmpsf2.o)
-                0x00000000080065b4                __gesf2
-                0x00000000080065b4                __gtsf2
-                0x00000000080065bc                __ltsf2
-                0x00000000080065bc                __lesf2
-                0x00000000080065c4                __nesf2
-                0x00000000080065c4                __eqsf2
-                0x00000000080065c4                __cmpsf2
-                0x0000000008006624                __aeabi_cfrcmple
-                0x000000000800662c                __aeabi_cfcmpeq
-                0x000000000800662c                __aeabi_cfcmple
-                0x000000000800663c                __aeabi_fcmpeq
-                0x0000000008006650                __aeabi_fcmplt
-                0x0000000008006664                __aeabi_fcmple
-                0x0000000008006678                __aeabi_fcmpge
-                0x000000000800668c                __aeabi_fcmpgt
- .text          0x00000000080066a0       0xec /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memcpy.o)
-                0x00000000080066a0                memcpy
- .text.memset   0x000000000800678c       0x94 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memset.o)
-                0x000000000800678c                memset
- .text.strcpy   0x0000000008006820       0xbc /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strcpy.o)
-                0x0000000008006820                strcpy
- .text.strlen   0x00000000080068dc       0x5c /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strlen-stub.o)
-                0x00000000080068dc                strlen
+ .text          0x0000000008005730       0xec /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memcpy.o)
+                0x0000000008005730                memcpy
+ .text.memset   0x000000000800581c       0x94 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memset.o)
+                0x000000000800581c                memset
+ .text.strcpy   0x00000000080058b0       0xbc /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strcpy.o)
+                0x00000000080058b0                strcpy
+ .text.strlen   0x000000000800596c       0x5c /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strlen-stub.o)
+                0x000000000800596c                strlen
+ .text          0x00000000080059c8      0x378 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_addsubdf3.o)
+                0x00000000080059c8                __aeabi_drsub
+                0x00000000080059d0                __subdf3
+                0x00000000080059d0                __aeabi_dsub
+                0x00000000080059d4                __aeabi_dadd
+                0x00000000080059d4                __adddf3
+                0x0000000008005c4c                __aeabi_ui2d
+                0x0000000008005c4c                __floatunsidf
+                0x0000000008005c6c                __floatsidf
+                0x0000000008005c6c                __aeabi_i2d
+                0x0000000008005c90                __extendsfdf2
+                0x0000000008005c90                __aeabi_f2d
+                0x0000000008005cd4                __aeabi_ul2d
+                0x0000000008005cd4                __floatundidf
+                0x0000000008005ce4                __aeabi_l2d
+                0x0000000008005ce4                __floatdidf
+ .text          0x0000000008005d40      0x424 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_muldivdf3.o)
+                0x0000000008005d40                __aeabi_dmul
+                0x0000000008005d40                __muldf3
+                0x0000000008005f94                __aeabi_ddiv
+                0x0000000008005f94                __divdf3
+ .text          0x0000000008006164      0x110 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_cmpdf2.o)
+                0x0000000008006164                __gedf2
+                0x0000000008006164                __gtdf2
+                0x000000000800616c                __ledf2
+                0x000000000800616c                __ltdf2
+                0x0000000008006174                __cmpdf2
+                0x0000000008006174                __eqdf2
+                0x0000000008006174                __nedf2
+                0x00000000080061f0                __aeabi_cdrcmple
+                0x0000000008006200                __aeabi_cdcmple
+                0x0000000008006200                __aeabi_cdcmpeq
+                0x0000000008006210                __aeabi_dcmpeq
+                0x0000000008006224                __aeabi_dcmplt
+                0x0000000008006238                __aeabi_dcmple
+                0x000000000800624c                __aeabi_dcmpge
+                0x0000000008006260                __aeabi_dcmpgt
+ .text          0x0000000008006274       0x2c /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_unorddf2.o)
+                0x0000000008006274                __aeabi_dcmpun
+                0x0000000008006274                __unorddf2
+ .text          0x00000000080062a0       0x50 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_fixdfsi.o)
+                0x00000000080062a0                __fixdfsi
+                0x00000000080062a0                __aeabi_d2iz
+ .text          0x00000000080062f0       0xa0 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_truncdfsf2.o)
+                0x00000000080062f0                __aeabi_d2f
+                0x00000000080062f0                __truncdfsf2
+ .text          0x0000000008006390      0x21c /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_addsubsf3.o)
+                0x0000000008006390                __aeabi_frsub
+                0x0000000008006398                __aeabi_fsub
+                0x0000000008006398                __subsf3
+                0x000000000800639c                __aeabi_fadd
+                0x000000000800639c                __addsf3
+                0x00000000080064fc                __aeabi_ui2f
+                0x00000000080064fc                __floatunsisf
+                0x0000000008006504                __floatsisf
+                0x0000000008006504                __aeabi_i2f
+                0x0000000008006520                __aeabi_ul2f
+                0x0000000008006520                __floatundisf
+                0x0000000008006530                __aeabi_l2f
+                0x0000000008006530                __floatdisf
+ .text          0x00000000080065ac      0x2a0 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_muldivsf3.o)
+                0x00000000080065ac                __mulsf3
+                0x00000000080065ac                __aeabi_fmul
+                0x0000000008006714                __divsf3
+                0x0000000008006714                __aeabi_fdiv
+ .text          0x000000000800684c       0xec /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_cmpsf2.o)
+                0x000000000800684c                __gesf2
+                0x000000000800684c                __gtsf2
+                0x0000000008006854                __ltsf2
+                0x0000000008006854                __lesf2
+                0x000000000800685c                __nesf2
+                0x000000000800685c                __eqsf2
+                0x000000000800685c                __cmpsf2
+                0x00000000080068bc                __aeabi_cfrcmple
+                0x00000000080068c4                __aeabi_cfcmpeq
+                0x00000000080068c4                __aeabi_cfcmple
+                0x00000000080068d4                __aeabi_fcmpeq
+                0x00000000080068e8                __aeabi_fcmplt
+                0x00000000080068fc                __aeabi_fcmple
+                0x0000000008006910                __aeabi_fcmpge
+                0x0000000008006924                __aeabi_fcmpgt
  .text.blocking_handler
                 0x0000000008006938        0x2 .pioenvs/bluepill_f103c8/libFrameworkLibOpenCM3.a(vector.o)
                 0x0000000008006938                exti0_isr
@@ -1051,31 +1050,31 @@ OUTPUT(.pioenvs/bluepill_f103c8/firmware.elf elf32-littlearm)
  .ARM.attributes
                 0x0000000000000099       0x33 .pioenvs/bluepill_f103c8/lib55c/libnano-float.a(functions.o)
  .ARM.attributes
-                0x00000000000000cc       0x1d /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_addsubdf3.o)
+                0x00000000000000cc       0x1b /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memcpy.o)
  .ARM.attributes
-                0x00000000000000e9       0x1d /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_muldivdf3.o)
+                0x00000000000000e7       0x2d /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memset.o)
  .ARM.attributes
-                0x0000000000000106       0x1d /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_cmpdf2.o)
+                0x0000000000000114       0x2d /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strcpy.o)
  .ARM.attributes
-                0x0000000000000123       0x1d /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_unorddf2.o)
+                0x0000000000000141       0x2d /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strlen-stub.o)
  .ARM.attributes
-                0x0000000000000140       0x1d /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_fixdfsi.o)
+                0x000000000000016e       0x1d /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_addsubdf3.o)
  .ARM.attributes
-                0x000000000000015d       0x1d /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_truncdfsf2.o)
+                0x000000000000018b       0x1d /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_muldivdf3.o)
  .ARM.attributes
-                0x000000000000017a       0x1d /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_addsubsf3.o)
+                0x00000000000001a8       0x1d /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_cmpdf2.o)
  .ARM.attributes
-                0x0000000000000197       0x1d /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_muldivsf3.o)
+                0x00000000000001c5       0x1d /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_unorddf2.o)
  .ARM.attributes
-                0x00000000000001b4       0x1d /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_cmpsf2.o)
+                0x00000000000001e2       0x1d /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_fixdfsi.o)
  .ARM.attributes
-                0x00000000000001d1       0x1b /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memcpy.o)
+                0x00000000000001ff       0x1d /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_truncdfsf2.o)
  .ARM.attributes
-                0x00000000000001ec       0x2d /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memset.o)
+                0x000000000000021c       0x1d /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_addsubsf3.o)
  .ARM.attributes
-                0x0000000000000219       0x2d /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strcpy.o)
+                0x0000000000000239       0x1d /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_muldivsf3.o)
  .ARM.attributes
-                0x0000000000000246       0x2d /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strlen-stub.o)
+                0x0000000000000256       0x1d /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_cmpsf2.o)
  .ARM.attributes
                 0x0000000000000273       0x33 .pioenvs/bluepill_f103c8/libFrameworkLibOpenCM3.a(vector.o)
  .ARM.attributes
@@ -1086,16 +1085,16 @@ OUTPUT(.pioenvs/bluepill_f103c8/firmware.elf elf32-littlearm)
  .debug_frame   0x000000000000073c      0x298 .pioenvs/bluepill_f103c8/libe06/liblogger.a(logger.o)
  .debug_frame   0x00000000000009d4      0x584 .pioenvs/bluepill_f103c8/lib950/libunity.a(unity.o)
  .debug_frame   0x0000000000000f58      0x4c0 .pioenvs/bluepill_f103c8/lib55c/libnano-float.a(functions.o)
- .debug_frame   0x0000000000001418       0xac /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_addsubdf3.o)
- .debug_frame   0x00000000000014c4       0x50 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_muldivdf3.o)
- .debug_frame   0x0000000000001514       0xc4 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_cmpdf2.o)
- .debug_frame   0x00000000000015d8       0x20 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_unorddf2.o)
- .debug_frame   0x00000000000015f8       0x24 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_fixdfsi.o)
- .debug_frame   0x000000000000161c       0x24 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_truncdfsf2.o)
- .debug_frame   0x0000000000001640       0x4c /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_addsubsf3.o)
- .debug_frame   0x000000000000168c       0x38 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_muldivsf3.o)
- .debug_frame   0x00000000000016c4       0xc8 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_cmpsf2.o)
- .debug_frame   0x000000000000178c       0x38 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memset.o)
- .debug_frame   0x00000000000017c4       0x20 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strcpy.o)
- .debug_frame   0x00000000000017e4       0x20 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strlen-stub.o)
+ .debug_frame   0x0000000000001418       0x38 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memset.o)
+ .debug_frame   0x0000000000001450       0x20 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strcpy.o)
+ .debug_frame   0x0000000000001470       0x20 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strlen-stub.o)
+ .debug_frame   0x0000000000001490       0xac /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_addsubdf3.o)
+ .debug_frame   0x000000000000153c       0x50 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_muldivdf3.o)
+ .debug_frame   0x000000000000158c       0xc4 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_cmpdf2.o)
+ .debug_frame   0x0000000000001650       0x20 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_unorddf2.o)
+ .debug_frame   0x0000000000001670       0x24 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_fixdfsi.o)
+ .debug_frame   0x0000000000001694       0x24 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_truncdfsf2.o)
+ .debug_frame   0x00000000000016b8       0x4c /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_addsubsf3.o)
+ .debug_frame   0x0000000000001704       0x38 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_muldivsf3.o)
+ .debug_frame   0x000000000000173c       0xc8 /Users/Luppy/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_cmpsf2.o)
  .debug_frame   0x0000000000001804       0x40 .pioenvs/bluepill_f103c8/libFrameworkLibOpenCM3.a(vector.o)
