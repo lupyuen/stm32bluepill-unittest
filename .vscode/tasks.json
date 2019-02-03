@@ -88,7 +88,7 @@
             }
         },
         {
-            "label": "🐛 Emulate STM32 Blue Pill (Debug)",
+            "label": "🐛 Debug STM32 Blue Pill Emulator",
             "type": "shell",
             "options": {
                 "cwd": "${workspaceFolder}"
